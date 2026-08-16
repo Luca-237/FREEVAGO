@@ -1,6 +1,10 @@
 node_modules/
 npm-debug.log*
 
+# variables de entorno con secretos reales (claves, connection strings) —
+# cada uno mantiene su .env local; se versiona solo .env.example
+.env
+
 # artefactos de debug de scraping (dumps de HTML, capturas, etc.)
 *.dump.html
 error_dump.html
