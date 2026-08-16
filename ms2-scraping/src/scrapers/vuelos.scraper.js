@@ -1,12 +1,9 @@
-import express from 'express';
 import puppeteer from 'puppeteer-extra';
 import StealthPlugin from 'puppeteer-extra-plugin-stealth';
-import * as readline from 'readline';
-import * as fs from 'fs';
 
 puppeteer.use(StealthPlugin());
 
-const BRAVE_PATH = '/opt/brave.com/brave-origin/brave';
+const BRAVE_PATH = process.env.BRAVE_PATH || '/opt/brave.com/brave-origin/brave';
 
 // Función auxiliar para sumar o restar días
 function addDaysToDateString(dateStr, days) {
@@ -22,7 +19,7 @@ function parseFlightData(flightStr) {
     const price = segments.find(s => s.includes('$') || s.includes('ARS') || s.includes('USD') || s.includes('€')) || 'Precio no encontrado';
     const timeRegex = /\d{1,2}:\d{2}\s*[a|p]m?.*?\d{1,2}:\d{2}\s*[a|p]m?/i;
     let legs = [];
-    
+
     for (let i = 0; i < segments.length; i++) {
         if (timeRegex.test(segments[i])) {
             let legInfo = {
@@ -48,7 +45,7 @@ function parseFlightData(flightStr) {
 // FUNCIÓN NÚCLEO (Usada tanto por la API como por la consola)
 async function performScrape(originInput, destination, departDate, returnDateStr, passengers, logFunction = console.log) {
     const origins = originInput.split(',').map(o => o.trim().toUpperCase());
-    
+
     let browser;
     try {
         browser = await puppeteer.launch({
@@ -73,30 +70,30 @@ async function performScrape(originInput, destination, departDate, returnDateStr
 
         for (const currentOrigin of origins) {
             if (vuelosEncontrados) break;
-            
+
             const MAX_INTENTOS = 5;
             let intentos = 0;
             let currentDepart = departDate;
             let currentReturn = returnDateStr;
-            
+
             while (intentos < MAX_INTENTOS) {
                 const tripType = currentReturn.trim() ? 'ROUNDTRIP' : 'ONEWAY';
                 let searchUrl = `https://booking.kayak.com/flights/${currentOrigin}-${destination.toUpperCase()}/${currentDepart}`;
                 if (currentReturn.trim()) searchUrl += `/${currentReturn}`;
                 searchUrl += `?adults=${passengers}&cabin_class=ECONOMY&sort=bestflight_a`;
-                
+
                 logFunction(`\n[Scraper] Navegando a: ${searchUrl}`);
-                
+
                 try {
                     await page.goto(searchUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
                 } catch (navError) {
                     logFunction(`[Scraper] Falló navegación: ${navError.message}`);
                     break;
                 }
-                
+
                 logFunction(`[Scraper] Esperando carga de vuelos...`);
                 await new Promise(r => setTimeout(r, 15000));
-                
+
                 if (page.url().includes('not-available')) {
                     logFunction(`[Scraper] Sin vuelos el ${currentDepart} desde ${currentOrigin}. Probando +1 día...`);
                     currentDepart = addDaysToDateString(currentDepart, 1);
@@ -104,7 +101,7 @@ async function performScrape(originInput, destination, departDate, returnDateStr
                     intentos++;
                 } else {
                     logFunction(`[Scraper] Página cargada para Ida: ${currentDepart} / Vuelta: ${currentReturn || 'N/A'} desde ${currentOrigin}`);
-                    
+
                     extraction = await page.evaluate(() => {
                         const selectors = [
                             'div[data-testid="searchresults-card"]', 'div[data-testid^="flight_card"]',
@@ -152,11 +149,11 @@ async function performScrape(originInput, destination, departDate, returnDateStr
                 }
             }
         }
-        
+
         if (!vuelosEncontrados || !extraction.success || extraction.data.length === 0) {
             return { error: 'No se encontraron vuelos tras agotar la búsqueda aproximada.' };
         }
-        
+
         const parsedFlights = extraction.data.slice(0, 10).map(f => parseFlightData(f));
         return {
             origin: finalOrigin,
@@ -173,91 +170,4 @@ async function performScrape(originInput, destination, departDate, returnDateStr
     }
 }
 
-
-// --- 1. MODO CONSOLA INTERACTIVA ---
-async function runInteractiveConsole() {
-    const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
-    const askQuestion = (q) => new Promise(resolve => rl.question(q, resolve));
-
-    console.log('\n--- MODO CONSOLA: Scraper de Booking (Vuelos) ---');
-    const origin = await askQuestion('Origen (ej. COR, o BUE,COR): ');
-    const destination = await askQuestion('Destino (ej. ASU): ');
-    const departDate = await askQuestion('Fecha de Ida (ej. 2026-10-10): ');
-    const returnDate = await askQuestion('Fecha de Vuelta (Opcional): ');
-    const passengers = await askQuestion('Cantidad de personas (ej. 1): ');
-    rl.close();
-
-    console.log('\nIniciando búsqueda...');
-    const result = await performScrape(origin, destination, departDate, returnDate, passengers, console.log);
-    
-    if (result.error) {
-        console.log(`\n[ERROR FINAL] ${result.error}`);
-        return;
-    }
-
-    console.log(`\n======================================================`);
-    console.log(`RESULTADOS FINALES: ${result.resultsFound} opciones encontradas`);
-    console.log(`======================================================`);
-
-    result.flights.forEach((flightObj, idx) => {
-        let output = `\nOPCIÓN ${idx + 1}\nPrecio: ${flightObj.price}\n`;
-        if (flightObj.legs.length === 0) {
-            output += `   Formato no estándar: ${flightObj.rawText.substring(0, 80)}...\n`;
-        } else {
-            flightObj.legs.forEach((leg, i) => {
-                output += `   Tramo ${i + 1} (${leg.route || 'Ruta'}): ${leg.airline}\n`;
-                output += `   Horario: ${leg.time} Duración: ${leg.duration}\n`;
-                output += `   ${leg.stops} ${leg.layover ? ' -> ' + leg.layover : ''}\n`;
-            });
-        }
-        console.log(output);
-    });
-}
-
-
-// --- 2. MODO SERVIDOR API ---
-function runApiServer() {
-    const app = express();
-    const PORT = 3000;
-    app.use(express.json());
-
-    app.get('/api/vuelos', async (req, res) => {
-        const { origin, destination, departDate, returnDate, passengers = 1 } = req.query;
-        if (!origin || !destination || !departDate) {
-            return res.status(400).json({ error: "Faltan parámetros: origin, destination, departDate" });
-        }
-        
-        console.log(`\n[API] Petición recibida: ${origin} a ${destination} (${departDate})`);
-        // Para la API usamos un log más limpio
-        const result = await performScrape(origin, destination, departDate, returnDate || '', passengers, (msg) => console.log(msg));
-
-        if (result.error) {
-            return res.status(404).json({ error: result.error });
-        }
-        res.json({ status: "success", ...result });
-    });
-
-    app.listen(PORT, () => {
-        console.log(`Servidor API iniciado en http://localhost:${PORT}`);
-        console.log(`Ejemplo: http://localhost:${PORT}/api/vuelos?origin=COR,BUE&destination=ASU&departDate=2026-10-15`);
-    });
-}
-
-
-// --- MENÚ PRINCIPAL ---
-const rlMain = readline.createInterface({ input: process.stdin, output: process.stdout });
-console.log('\n=============================================');
-console.log(' SELECCIONA EL MODO DE EJECUCIÓN DEL SCRAPER');
-console.log('=============================================');
-console.log(' 1. Modo Consola (Interactivo)');
-console.log(' 2. Servidor API REST');
-rlMain.question('\nIngresa 1 o 2: ', (answer) => {
-    rlMain.close();
-    if (answer.trim() === '1') {
-        runInteractiveConsole();
-    } else if (answer.trim() === '2') {
-        runApiServer();
-    } else {
-        console.log('Opción inválida. Saliendo...');
-    }
-});
+export { performScrape, parseFlightData, addDaysToDateString };
