@@ -1,0 +1,25 @@
+{
+  "name": "freevago",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luca-237/FREEVAGO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Luca-237/FREEVAGO/issues"
+  },
+  "homepage": "https://github.com/Luca-237/FREEVAGO#readme",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "node-fetch": "^3.3.2"
+  }
+}

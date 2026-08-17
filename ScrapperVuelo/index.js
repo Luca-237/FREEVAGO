@@ -46,7 +46,7 @@ function parseFlightData(flightStr) {
 }
 
 // FUNCIÓN NÚCLEO (Usada tanto por la API como por la consola)
-async function performScrape(originInput, destination, departDate, returnDateStr, passengers, logFunction = console.log) {
+export async function performScrape(originInput, destination, departDate, returnDateStr, passengers, logFunction = console.log) {
     const origins = originInput.split(',').map(o => o.trim().toUpperCase());
     
     let browser;
@@ -245,19 +245,23 @@ function runApiServer() {
 
 
 // --- MENÚ PRINCIPAL ---
-const rlMain = readline.createInterface({ input: process.stdin, output: process.stdout });
-console.log('\n=============================================');
-console.log(' SELECCIONA EL MODO DE EJECUCIÓN DEL SCRAPER');
-console.log('=============================================');
-console.log(' 1. Modo Consola (Interactivo)');
-console.log(' 2. Servidor API REST');
-rlMain.question('\nIngresa 1 o 2: ', (answer) => {
-    rlMain.close();
-    if (answer.trim() === '1') {
-        runInteractiveConsole();
-    } else if (answer.trim() === '2') {
-        runApiServer();
-    } else {
-        console.log('Opción inválida. Saliendo...');
-    }
-});
+import { fileURLToPath } from 'url';
+
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+    const rlMain = readline.createInterface({ input: process.stdin, output: process.stdout });
+    console.log('\n=============================================');
+    console.log(' SELECCIONA EL MODO DE EJECUCIÓN DEL SCRAPER');
+    console.log('=============================================');
+    console.log(' 1. Modo Consola (Interactivo)');
+    console.log(' 2. Servidor API REST');
+    rlMain.question('\nIngresa 1 o 2: ', (answer) => {
+        rlMain.close();
+        if (answer.trim() === '1') {
+            runInteractiveConsole();
+        } else if (answer.trim() === '2') {
+            runApiServer();
+        } else {
+            console.log('Opción inválida. Saliendo...');
+        }
+    });
+}

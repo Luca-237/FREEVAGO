@@ -10,9 +10,8 @@ const BRAVE_PATH = '/opt/brave.com/brave-origin/brave';
 // Normalizar texto (quitar tildes y pasar a minúsculas) para comparaciones
 const normalizeText = (text) => text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
-// --- FUNCIÓN: Buscar sugerencias de destinos reales desde la API de Turismocity ---
-// Usa la API fullLocation para buscar ciudades y luego valida el slug con GraphQL city()
-async function fetchSugerenciasDestino(page, query) {
+// --- FUNCIÓN PARA AUTOCOMPLETADO DE DESTINO ---
+export async function fetchSugerenciasDestino(page, query) {
     const results = await page.evaluate(async (q) => {
         try {
             // 1. Buscar ciudades con la API de fullLocation
@@ -66,8 +65,8 @@ async function fetchSugerenciasDestino(page, query) {
     return results;
 }
 
-// --- FUNCIÓN: Scrapear actividades de un destino ---
-async function performScrape(page, destinationSlug, logFunction = console.log) {
+// --- FUNCIÓN DE SCRAPING TURISMOCITY ---
+export async function performScrape(page, destinationSlug, logFunction = console.log) {
     const searchUrl = `https://www.turismocity.com.ar/actividades-en-${destinationSlug}`;
     logFunction(`\n[Scraper] Navegando a: ${searchUrl}`);
     
@@ -162,8 +161,8 @@ async function performScrape(page, destinationSlug, logFunction = console.log) {
     };
 }
 
-// --- FUNCIÓN: Scrapear actividades en Civitatis ---
-async function performCivitatisScrape(page, cityName, countryName, logFunction = console.log) {
+// --- FUNCIÓN DE SCRAPING CIVITATIS ---
+export async function performCivitatisScrape(page, cityName, countryName, logFunction = console.log) {
     const normalize = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/\s+/g, '-');
     const citySlug = normalize(cityName);
     const countrySlug = normalize(countryName);
@@ -510,19 +509,23 @@ function runApiServer() {
 }
 
 // --- MENÚ PRINCIPAL ---
-const rlMain = readline.createInterface({ input: process.stdin, output: process.stdout });
-console.log('\n=============================================');
-console.log(' SELECCIONA EL MODO DE EJECUCIÓN DEL SCRAPER');
-console.log('=============================================');
-console.log(' 1. Modo Consola (Interactivo)');
-console.log(' 2. Servidor API REST');
-rlMain.question('\nIngresa 1 o 2: ', (answer) => {
-    rlMain.close();
-    if (answer.trim() === '1') {
-        runInteractiveConsole();
-    } else if (answer.trim() === '2') {
-        runApiServer();
-    } else {
-        console.log('Opción inválida. Saliendo...');
-    }
-});
+import { fileURLToPath } from 'url';
+
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+    const rlMain = readline.createInterface({ input: process.stdin, output: process.stdout });
+    console.log('\n=============================================');
+    console.log(' SELECCIONA EL MODO DE EJECUCIÓN DEL SCRAPER');
+    console.log('=============================================');
+    console.log(' 1. Modo Consola (Interactivo)');
+    console.log(' 2. Servidor API REST');
+    rlMain.question('\nIngresa 1 o 2: ', (answer) => {
+        rlMain.close();
+        if (answer.trim() === '1') {
+            runInteractiveConsole();
+        } else if (answer.trim() === '2') {
+            runApiServer();
+        } else {
+            console.log('Opción inválida. Saliendo...');
+        }
+    });
+}
