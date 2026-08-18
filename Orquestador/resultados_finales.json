@@ -1,0 +1,381 @@
+{
+    "metadata": {
+        "origen": {
+            "input": "Buenos Aires",
+            "iata": "BUE",
+            "nombreIngles": "Buenos Aires, Argentina"
+        },
+        "destino": {
+            "input": "bariloche",
+            "oficial": "San Carlos de Bariloche",
+            "slug": "San_Carlos_de_Bariloche_Argentina",
+            "iata": "BRC",
+            "nombreIngles": "San Carlos de Bariloche"
+        },
+        "viaje": {
+            "ida": "2026-10-13",
+            "vuelta": "2026-10-20",
+            "pasajeros": 1,
+            "presupuestoPorPersona": 1000000
+        }
+    },
+    "resultados": {
+        "vuelos": {
+            "totalEncontrados": 10,
+            "dentroDelPresupuesto": 10,
+            "opciones": [
+                {
+                    "price": "$110",
+                    "legs": [
+                        {
+                            "time": "10:00 am – 12:25 pm",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 25m",
+                            "route": "AEP-BRC"
+                        },
+                        {
+                            "time": "10:50 pm – 12:55 am+1",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 05m",
+                            "route": "BRC-AEP"
+                        }
+                    ],
+                    "rawText": "Best | Cheapest | 10:00 am – 12:25 pm | Aerolineas Argentinas | nonstop | 2h 25m | AEP | - | BRC | 10:50 pm – 12:55 am+1 | Aerolineas Argentinas | nonstop | 2h 05m | BRC | - | AEP | $110 | Economy Cabin | Select"
+                },
+                {
+                    "price": "$110",
+                    "legs": [
+                        {
+                            "time": "10:00 am – 12:25 pm",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 25m",
+                            "route": "AEP-BRC"
+                        },
+                        {
+                            "time": "9:50 pm – 11:55 pm",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 05m",
+                            "route": "BRC-AEP"
+                        }
+                    ],
+                    "rawText": "10:00 am – 12:25 pm | Aerolineas Argentinas | nonstop | 2h 25m | AEP | - | BRC | 9:50 pm – 11:55 pm | Aerolineas Argentinas | nonstop | 2h 05m | BRC | - | AEP | $110 | Economy Cabin | Select"
+                },
+                {
+                    "price": "$110",
+                    "legs": [
+                        {
+                            "time": "6:35 pm – 9:00 pm",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 25m",
+                            "route": "AEP-BRC"
+                        },
+                        {
+                            "time": "10:50 pm – 12:55 am+1",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 05m",
+                            "route": "BRC-AEP"
+                        }
+                    ],
+                    "rawText": "6:35 pm – 9:00 pm | Aerolineas Argentinas | nonstop | 2h 25m | AEP | - | BRC | 10:50 pm – 12:55 am+1 | Aerolineas Argentinas | nonstop | 2h 05m | BRC | - | AEP | $110 | Economy Cabin | Select"
+                },
+                {
+                    "price": "$110",
+                    "legs": [
+                        {
+                            "time": "6:35 pm – 9:00 pm",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 25m",
+                            "route": "AEP-BRC"
+                        },
+                        {
+                            "time": "9:50 pm – 11:55 pm",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 05m",
+                            "route": "BRC-AEP"
+                        }
+                    ],
+                    "rawText": "6:35 pm – 9:00 pm | Aerolineas Argentinas | nonstop | 2h 25m | AEP | - | BRC | 9:50 pm – 11:55 pm | Aerolineas Argentinas | nonstop | 2h 05m | BRC | - | AEP | $110 | Economy Cabin | Select"
+                },
+                {
+                    "price": "$110",
+                    "legs": [
+                        {
+                            "time": "7:35 pm – 10:00 pm",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 25m",
+                            "route": "AEP-BRC"
+                        },
+                        {
+                            "time": "10:50 pm – 12:55 am+1",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 05m",
+                            "route": "BRC-AEP"
+                        }
+                    ],
+                    "rawText": "7:35 pm – 10:00 pm | Aerolineas Argentinas | nonstop | 2h 25m | AEP | - | BRC | 10:50 pm – 12:55 am+1 | Aerolineas Argentinas | nonstop | 2h 05m | BRC | - | AEP | $110 | Economy Cabin | Select"
+                },
+                {
+                    "price": "$110",
+                    "legs": [
+                        {
+                            "time": "7:35 pm – 10:00 pm",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 25m",
+                            "route": "AEP-BRC"
+                        },
+                        {
+                            "time": "9:50 pm – 11:55 pm",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 05m",
+                            "route": "BRC-AEP"
+                        }
+                    ],
+                    "rawText": "7:35 pm – 10:00 pm | Aerolineas Argentinas | nonstop | 2h 25m | AEP | - | BRC | 9:50 pm – 11:55 pm | Aerolineas Argentinas | nonstop | 2h 05m | BRC | - | AEP | $110 | Economy Cabin | Select"
+                },
+                {
+                    "price": "$110",
+                    "legs": [
+                        {
+                            "time": "6:45 am – 9:10 am",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 25m",
+                            "route": "AEP-BRC"
+                        },
+                        {
+                            "time": "10:50 pm – 12:55 am+1",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 05m",
+                            "route": "BRC-AEP"
+                        }
+                    ],
+                    "rawText": "6:45 am – 9:10 am | Aerolineas Argentinas | nonstop | 2h 25m | AEP | - | BRC | 10:50 pm – 12:55 am+1 | Aerolineas Argentinas | nonstop | 2h 05m | BRC | - | AEP | $110 | Economy Cabin | Select"
+                },
+                {
+                    "price": "$110",
+                    "legs": [
+                        {
+                            "time": "6:45 am – 9:10 am",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 25m",
+                            "route": "AEP-BRC"
+                        },
+                        {
+                            "time": "9:50 pm – 11:55 pm",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 05m",
+                            "route": "BRC-AEP"
+                        }
+                    ],
+                    "rawText": "6:45 am – 9:10 am | Aerolineas Argentinas | nonstop | 2h 25m | AEP | - | BRC | 9:50 pm – 11:55 pm | Aerolineas Argentinas | nonstop | 2h 05m | BRC | - | AEP | $110 | Economy Cabin | Select"
+                },
+                {
+                    "price": "$110",
+                    "legs": [
+                        {
+                            "time": "4:35 am – 7:00 am",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 25m",
+                            "route": "AEP-BRC"
+                        },
+                        {
+                            "time": "10:50 pm – 12:55 am+1",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 05m",
+                            "route": "BRC-AEP"
+                        }
+                    ],
+                    "rawText": "4:35 am – 7:00 am | Aerolineas Argentinas | nonstop | 2h 25m | AEP | - | BRC | 10:50 pm – 12:55 am+1 | Aerolineas Argentinas | nonstop | 2h 05m | BRC | - | AEP | $110 | Economy Cabin | Select"
+                },
+                {
+                    "price": "$110",
+                    "legs": [
+                        {
+                            "time": "4:35 am – 7:00 am",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 25m",
+                            "route": "AEP-BRC"
+                        },
+                        {
+                            "time": "9:50 pm – 11:55 pm",
+                            "airline": "Aerolineas Argentinas",
+                            "stops": "nonstop",
+                            "layover": "",
+                            "duration": "2h 05m",
+                            "route": "BRC-AEP"
+                        }
+                    ],
+                    "rawText": "4:35 am – 7:00 am | Aerolineas Argentinas | nonstop | 2h 25m | AEP | - | BRC | 9:50 pm – 11:55 pm | Aerolineas Argentinas | nonstop | 2h 05m | BRC | - | AEP | $110 | Economy Cabin | Select"
+                }
+            ]
+        },
+        "hoteles": {
+            "totalEncontrados": 0,
+            "dentroDelPresupuesto": 0,
+            "opciones": []
+        },
+        "actividades": {
+            "totalEncontrados": 15,
+            "dentroDelPresupuesto": 15,
+            "opciones": [
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Free tour por Bariloche",
+                    "duracionEstimada": "2hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "¡Gratis!",
+                    "descripcionBreve": "Unas bonitas vistas del lago Nahuel Huapi, historias relacionadas con los nazis y otras sorpresas os esperan en este free tour por San Carlos de Bariloche."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Desde Bariloche: San Martin de los Andes por la Ruta de los 7 Lagos",
+                    "duracionEstimada": "10hs 30m",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$82.136",
+                    "descripcionBreve": "Una aventura inolvidable desde Bariloche hacia San Martín de los Andes, recorriendo uno de los paisajes más emblemáticos de la región: el legendario Camino de los 7 Lagos. Esta excursión de día comple..."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Excursión a Cerro Catedral",
+                    "duracionEstimada": "4hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$42.894",
+                    "descripcionBreve": "Descubrid el centro de esquí más grande del hemisferio sur con esta excursión a Cerro Catedral. ¡Imprescindible para amantes de los paisajes de montaña!"
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Bariloche, Circuito Chico: Cerro Campanario y Peninsula Llao Llao",
+                    "duracionEstimada": "4hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$36.792",
+                    "descripcionBreve": "Si visitas Bariloche, hay una excursión que simplemente no puedes perderte: el famoso Circuito Chico. Es la puerta de entrada a los paisajes más icónicos de la región y, en tan solo medio día, te perm..."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Isla Victoria y Bosque de Arrayanes con Navegación",
+                    "duracionEstimada": "6hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$184.996",
+                    "descripcionBreve": "Explora un paisaje de ensueño en una travesía que despierta todos los sentidos.Zarpa desde Puerto Pañuelo y déjate llevar por las aguas cristalinas del Lago Nahuel Huapi. Tras una hora de navegación, ..."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Full Day Cerro Tronador: Nieves Eternas y Glaciares Colgantes",
+                    "duracionEstimada": "9hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$78.515",
+                    "descripcionBreve": "Embárcate en una aventura inolvidable al corazón del Parque Nacional Nahuel Huapi, donde el majestuoso Cerro Tronador se alza como el guardián de las nieves eternas y los glaciares colgantes. Su impon..."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Piedras Blancas",
+                    "duracionEstimada": "6hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$233.333",
+                    "descripcionBreve": "🛷 6 bajadas en las famosas pistas de trineos de Piedras Blancas. 🚡 Ascenso panorámico en aerosilla hasta la cumbre del Cerro Otto. ❄️ Más de 3.000 metros de pistas exclusivas para trineos. 👨‍👩‍👧‍..."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Excursión a Isla Victoria y Bosque de Arrayanes",
+                    "duracionEstimada": "5hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$143.183",
+                    "descripcionBreve": "En esta excursión daremos un paseo en barco por el lago Nahuel Huapi y descubriremos la famosa Isla Victoria y el Bosque de Arrayanes. ¡Toda una joya natural!"
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Excursión a Puerto Blest y la Cascada de los Cántaros",
+                    "duracionEstimada": "10hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$143.183",
+                    "descripcionBreve": "Disfrutaréis de un paseo en barco por el lago Nahuel Huapi en esta excursión a Puerto Blest y la Cascada de los Cántaros. ¡Naturaleza a la argentina!"
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Excursión a Villa La Angostura y Villa Traful",
+                    "duracionEstimada": "9hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$98.904",
+                    "descripcionBreve": "Descubre los bellos paisajes naturales de Bariloche con este tour al completo, una ruta que te permitirá conocer preciosos lagos y bosques patagónicos."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "De Bariloche a la Comarca Andina: Descubra El Bolsón y Lago Puelo",
+                    "duracionEstimada": "9hs 30m",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$74.619",
+                    "descripcionBreve": "Descubre la Magia de la Comarca Andina: Excursión desde Bariloche a El Bolsón y Lago PueloEmbárcate en una experiencia inolvidable partiendo desde Bariloche, recorriendo la emblemática Ruta Nacional 4..."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Canopy",
+                    "duracionEstimada": "4hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$185.833",
+                    "descripcionBreve": "Realizar canopy en Bariloche a través del bosque es un viaje increíble y divertido. Podremos compartir con la familia, disfrutando de la montaña y experimentando la inolvidable sensación de volar.Desl..."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Excursión a Colonia Suiza",
+                    "duracionEstimada": "5hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$42.605",
+                    "descripcionBreve": "Descubrid la esencia de una de las localidades con más historia de Bariloche en esta excursión a Colonia Suiza. Veremos la ceremonia del destape del curanto."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Bautismo de buceo en el lago Moreno",
+                    "duracionEstimada": "2hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$79.123",
+                    "descripcionBreve": "Con este bautismo de buceo en el lago Moreno os enseñaremos a hacer submarinismo en un entorno único de la provincia argentina de Río Negro."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Descubre la magia del Cerro Catedral: una experiencia única en cada estación",
+                    "duracionEstimada": "4hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$37.173",
+                    "descripcionBreve": "El majestuoso Cerro Catedral debe su nombre a las imponentes torres de su cumbre, que evocan la silueta de una catedral gótica en lo alto de la Patagonia. Este lugar no solo es un ícono natural, sino ..."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,1604 @@
+<div class="l-c-2" id="search-list-container">
+                    <div class="__inner">
+                    <div class="__inner-inner">
+                        <div class="o-activity-filters--applied __loaded" id="activity-filters--applied"><div class="o-search-toolbar _V2 _with-17-own-activities"><div class="o-filters--applied--small hide-for-xlarge"><span class="a-button-filters">Filtrar</span></div><div class="o-filters--applied"></div><div class="m-icon-menu"><div class="m-icon-menu__button-group"><div class="__inner"><span id="activity-list-map" class="m-icon-menu__item _map "><span class="__inner">Mapa</span></span></div><div id="lwtooltip" class="m-icon-menu__tooltip tooltip activity-tooltip --small top" role="tooltip" aria-hidden="true" data-is-active="false" data-is-focus="false"><div class="o-info"><strong>Elige cómo quieres ver las actividades</strong><br>Navega por el mapa para descubrir todas nuestras actividades.</div></div><div id="lwtooltip-overlay" class="m-icon-menu__tooltip-overlay"></div></div></div><span class="icon-button map-filter-button">Filtrar</span><div id="d7azi" class="sort-dropdown _closed "><div class="sort-dropdown__selected">Ordenar</div><div class="sort-dropdown__list"><div class="sort-dropdown__list__item ">Popularidad</div><div class="sort-dropdown__list__item ">Mejor valorado</div><div class="sort-dropdown__list__item ">Precio (más bajos primero)</div><div class="sort-dropdown__list__item ">Novedad</div><div class="sort-dropdown__list__item ">Duración (de menor a mayor)</div><div class="sort-dropdown__list__item ">Duración (de mayor a menor)</div></div></div><div class="o-search-toolbar__title "><div class="a-title--search-result">17 excursiones y actividades
+                                                                                                            en Córdoba</div></div></div></div>
+                                                    
+                    
+                    
+
+    
+                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+    
+<div class="o-search-list o-search-list--activities  _testA  " id="activities-container" data-testid="container_activities_list_page">
+                                                                                    
+        
+                    
+                                                                <div class="o-search-list__item" id="activitiesItem_54220" data-activitiesitem="54220" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_54220" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="54220" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="excursiones">
+																									
+																																															
+				<a id="activity-like-button-0" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;54220&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:54220,&quot;name&quot;:&quot;Excursion a Villa General Belgrano y La Cumbrecita&quot;,&quot;price&quot;:24200,&quot;brand&quot;:16244,&quot;category&quot;:&quot;Excursiones de un dia&quot;,&quot;position&quot;:0,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/tour-villa-general-belgrano-cumbrecita&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:96800}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/tour-villa-general-belgrano-cumbrecita/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-54220" data-gtm-activity="54220" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Excursión a Villa General Belgrano y La Cumbrecita" title="Excursión a Villa General Belgrano y La Cumbrecita">
+			
+			<div class="comfort-card__img" id="activity-image-54220" style="height: 186px;">
+									<img class="b-lazy b-loaded bloaded" src="https://www.civitatis.com/f/argentina/cordoba/tour-villa-general-belgrano-cumbrecita-list.jpg" alt="Excursión a Villa General Belgrano y La Cumbrecita">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Excursión a Villa General Belgrano y La Cumbrecita
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">9,3
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">58
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">408 viajeros</span>
+								<span class="comfort-card__traveler-count _k">408 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						Adéntrate en el <b>valle de Calamuchita</b> y descubre paisajes y pueblos con encanto. Visitarás la <b>Villa General Belgrano y La Cumbrecita</b>.
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-54220">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 10 horas" content=" 10 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 10 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español e inglés." content="La actividad se realiza con un guía que habla español e inglés." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _excursiones has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Excursiones de un día" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Excursiones de un día</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="54220" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">96.800</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="54220" style="display: none;">
+																																											<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">96.800 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_47884" data-activitiesitem="47884" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_47884" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="47884" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="excursiones">
+																									
+																																															
+				<a id="activity-like-button-1" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;47884&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:47884,&quot;name&quot;:&quot;Tour por las Estancias Jesuiticas del Norte&quot;,&quot;price&quot;:24200,&quot;brand&quot;:16244,&quot;category&quot;:&quot;Excursiones de un dia&quot;,&quot;position&quot;:1,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/tour-estancias-jesuiticas-norte&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:96800}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/tour-estancias-jesuiticas-norte/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-47884" data-gtm-activity="47884" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Tour por las Estancias Jesuíticas del Norte" title="Tour por las Estancias Jesuíticas del Norte">
+			
+			<div class="comfort-card__img" id="activity-image-47884" style="height: 186px;">
+									<img class="b-lazy b-loaded bloaded" src="https://www.civitatis.com/f/argentina/cordoba/tour-estancias-jesuiticas-norte-list.jpg" alt="Tour por las Estancias Jesuíticas del Norte">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Tour por las Estancias Jesuíticas del Norte
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">8
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">4
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">42 viajeros</span>
+								<span class="comfort-card__traveler-count _k">42 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						En este tour por las Estancias Jesuíticas del Norte cordobés conocerás <b>la forma de vida de los monjes de la Compañía de Jesús</b>. ¡No te lo puedes perder!
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-47884">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 10 horas" content=" 10 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 10 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español e inglés." content="La actividad se realiza con un guía que habla español e inglés." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _excursiones has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Excursiones de un día" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Excursiones de un día</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="47884" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">96.800</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="47884" style="display: none;">
+																																											<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">96.800 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_98152" data-activitiesitem="98152" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_98152" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="98152" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="excursiones">
+																									
+																																															
+				<a id="activity-like-button-2" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;98152&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:98152,&quot;name&quot;:&quot;Excursion al Valle de Punilla&quot;,&quot;price&quot;:23250,&quot;brand&quot;:16244,&quot;category&quot;:&quot;Excursiones de un dia&quot;,&quot;position&quot;:2,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/excursion-valle-punilla&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:93000}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/excursion-valle-punilla/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-98152" data-gtm-activity="98152" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Excursión al Valle de Punilla" title="Excursión al Valle de Punilla">
+			
+			<div class="comfort-card__img" id="activity-image-98152" style="height: 186px;">
+									<img class="b-lazy b-loaded bloaded" src="https://www.civitatis.com/f/argentina/cordoba/excursion-valle-punilla-list.jpg" alt="Excursión al Valle de Punilla">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Excursión al Valle de Punilla
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">9
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">4
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">58 viajeros</span>
+								<span class="comfort-card__traveler-count _k">58 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						En esta excursión <b>descubriréis los bellos paisajes y pueblos del Valle de Punilla</b>, uno de los más hermosos del norte de Argentina. ¡Os cautivará para siempre!
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-98152">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 10 horas" content=" 10 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 10 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español e inglés." content="La actividad se realiza con un guía que habla español e inglés." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _excursiones has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Excursiones de un día" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Excursiones de un día</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="98152" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">93.000</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="98152" style="display: none;">
+																																											<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">93.000 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_98190" data-activitiesitem="98190" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_98190" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="98190" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="excursiones">
+																									
+																																															
+				<a id="activity-like-button-3" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;98190&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:98190,&quot;name&quot;:&quot;Excursion a Alta Gracia y Villa Carlos Paz&quot;,&quot;price&quot;:23250,&quot;brand&quot;:16244,&quot;category&quot;:&quot;Excursiones de un dia&quot;,&quot;position&quot;:3,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/excursion-alta-gracia-carlos-paz&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:93000}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/excursion-alta-gracia-carlos-paz/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-98190" data-gtm-activity="98190" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Excursión a Alta Gracia y Villa Carlos Paz" title="Excursión a Alta Gracia y Villa Carlos Paz">
+			
+			<div class="comfort-card__img" id="activity-image-98190" style="height: 186px;">
+									<img class="b-lazy b-loaded bloaded" src="https://www.civitatis.com/f/argentina/cordoba/excursion-alta-gracia-carlos-paz-list.jpg" alt="Excursión a Alta Gracia y Villa Carlos Paz">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Excursión a Alta Gracia y Villa Carlos Paz
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">8,7
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">15
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">78 viajeros</span>
+								<span class="comfort-card__traveler-count _k">78 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						Con esta excursión desde la ciudad de Córdoba <b>descubriréis el encanto de Alta Gracia y Villa Carlos Paz</b>, dos populares localidades de la provincia.
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-98190">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 10 horas" content=" 10 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 10 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español e inglés." content="La actividad se realiza con un guía que habla español e inglés." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _excursiones has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Excursiones de un día" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Excursiones de un día</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="98190" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">93.000</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="98190" style="display: none;">
+																																											<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">93.000 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_209924" data-activitiesitem="209924" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_209924" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="209924" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="excursiones">
+																									
+																																															
+				<a id="activity-like-button-4" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;209924&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:209924,&quot;name&quot;:&quot;Excursion a las Sierras Chicas&quot;,&quot;price&quot;:12300,&quot;brand&quot;:16244,&quot;category&quot;:&quot;Excursiones de un dia&quot;,&quot;position&quot;:4,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/excursion-sierras-chicas&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:61500}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/excursion-sierras-chicas/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-209924" data-gtm-activity="209924" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Excursión a las Sierras Chicas" title="Excursión a las Sierras Chicas">
+			
+			<div class="comfort-card__img" id="activity-image-209924" style="height: 186px;">
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.civitatis.com/f/argentina/cordoba/excursion-sierras-chicas-list.jpg" data-src-mobile="https://www.civitatis.com/f/argentina/cordoba/excursion-sierras-chicas-list-m.jpg" alt="Excursión a las Sierras Chicas">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Excursión a las Sierras Chicas
+					</h2>
+					<div class="m-rating__list-container">
+																					<div class="m-rating">
+									<span class="text--rating-total u-nomargin">Sin valorar</span>
+								</div>
+																																										
+								<span class="comfort-card__traveler-count _full">4 viajeros</span>
+								<span class="comfort-card__traveler-count _k">4 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						En esta <strong>excursión a las Sierras Chicas</strong> haremos una ruta para visitar sus <strong>diques más importantes</strong> y sus pueblos con más encanto, como <strong>La Calera y Río Ceballos</strong>.
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-209924">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 4 horas" content=" 4 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 4 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español e inglés." content="La actividad se realiza con un guía que habla español e inglés." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _excursiones has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Excursiones de un día" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Excursiones de un día</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="209924" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">61.500</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="209924" style="display: none;">
+																																											<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">61.500 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_100668" data-activitiesitem="100668" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_100668" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="100668" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="accion-naturaleza">
+																									
+																																															
+				<a id="activity-like-button-5" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;100668&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:100668,&quot;name&quot;:&quot;Trekking por el Parque Nacional Quebrada del Condorito&quot;,&quot;price&quot;:19000,&quot;brand&quot;:23928,&quot;category&quot;:&quot;Accion y naturaleza&quot;,&quot;position&quot;:5,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/trekking-parque-quebrada-condorito&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:95000}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/trekking-parque-quebrada-condorito/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-100668" data-gtm-activity="100668" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Trekking por el Parque Nacional Quebrada del Condorito" title="Trekking por el Parque Nacional Quebrada del Condorito">
+			
+			<div class="comfort-card__img" id="activity-image-100668" style="height: 186px;">
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.civitatis.com/f/argentina/cordoba/trekking-parque-quebrada-condorito-list.jpg" data-src-mobile="https://www.civitatis.com/f/argentina/cordoba/trekking-parque-quebrada-condorito-list-m.jpg" alt="Trekking por el Parque Nacional Quebrada del Condorito">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Trekking por el Parque Nacional Quebrada del Condorito
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">8,6
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">7
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">39 viajeros</span>
+								<span class="comfort-card__traveler-count _k">39 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						Con esta ruta de trekking <b>descubrirás la fauna y flora del Parque Nacional Quebrada del Condorito</b>, uno de los principales espacios naturales de Córdoba.
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-100668">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 12 horas" content=" 12 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 12 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español." content="La actividad se realiza con un guía que habla español." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _accion-naturaleza has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Acción y naturaleza" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Acción y naturaleza</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="100668" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="from-text _from_pjbab_5" data-testid="from">desde</div><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">95.000</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="100668" style="display: none;">
+																																				<span class="comfort-card__price__notice _outside">desde</span>
+																					<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">95.000 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                                                                                        <div class="o-search-list__item" data-activitiesitem="-1" data-activitiestipo="transfer" data-testid="section_transfer_activity_list">
+                                                
+
+
+
+
+
+
+
+<article class="comfort-card _transfer _testA  " data-activity="-1" data-cityid="366" data-cs-override-id="comfort_card_-1">
+        <a class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;0&quot;,&quot;productType&quot;:&quot;2&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-countryid="366" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+        <span class="comfort-card__like__label">like</span>
+    </a>
+    <a id="data-gtm--1" data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:-1,&quot;name&quot;:&quot;Traslados en Cordoba&quot;,&quot;price&quot;:8.64,&quot;brand&quot;:0,&quot;category&quot;:&quot;traslado&quot;,&quot;position&quot;:16,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/\/ar\/cordoba-argentina\/traslados\/&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:null,&quot;category3&quot;:2,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:0}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/traslados/" class="_activity-link" title="Traslados en Córdoba">
+        <div class="comfort-card__img" id="activity-image--1">
+            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.civitatis.com/f/images/promos/traslados-list.jpg" data-src-mobile="https://www.civitatis.com/f/images/promos/traslados-list-m.jpg" alt="Traslados en Córdoba">
+        </div>
+        <div class="comfort-card__content">
+            <div class="__left">
+                <h2 class="comfort-card__title" data-testid="title_activity_list_page">
+                    Traslados en Córdoba
+                </h2>
+                                <div class="m-rating__list-container">
+                                            <div class="m-rating">
+                            <span class="m-rating--text">8,8 <span class="__total"> / 10</span></span>
+                            <span class="text--rating-total">84 opiniones</span>
+                        </div>
+                    
+                                                                    
+                        <span class="comfort-card__traveler-count _full">1.007 viajeros</span>
+                        <span class="comfort-card__traveler-count _k">1K viajeros</span>
+                    
+                    
+                                            <div class="comfort-card__cancelation _show-filters-large">
+                            <span data-tooltip="lxg7m8-tooltip" aria-haspopup="true" class="has-tip top _processed" title="" data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" aria-describedby="inrab4-tooltip" data-yeti-box="inrab4-tooltip" data-toggle="inrab4-tooltip" data-resize="inrab4-tooltip">Cancelación gratuita</span>
+                        </div>
+                                    </div>
+                            </div>
+            <div class="__center">
+                <div class="comfort-card__text l-list-card__text">
+                                            Servicio <b>privado, puerta a puerta y al mejor precio</b>. Un chófer los esperará en el aeropuerto, en el hotel o dónde quieran para llevarlos a su destino de forma rápida y segura.
+                    
+                </div>
+            </div>
+            <div class="__right">
+                <div class="comfort-card__extra-info">
+                    <div class="comfort-card__features">
+                        <span data-tooltip="47whvn-tooltip" class="comfort-card__feature _euro has-tip top _processed" title="" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip _show-for-new-list" aria-describedby="zvtisz-tooltip" data-yeti-box="zvtisz-tooltip" data-toggle="zvtisz-tooltip" data-resize="zvtisz-tooltip">
+                            Precio final
+                        </span>
+                        <span data-tooltip="mecr16-tooltip" class="comfort-card__feature _time has-tip top _processed" title="" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip _show-for-new-list" aria-describedby="k81085-tooltip" data-yeti-box="k81085-tooltip" data-toggle="k81085-tooltip" data-resize="k81085-tooltip">
+                            Seguro, sin contratiempos
+                        </span>
+                    </div>
+                                            <div class="comfort-card__cancelation _hide-filters-large">
+                                                    <span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo antes de realizar el servicio. La antelación depende del vehículo contratado." content="Cancelá sin costo antes de realizar el servicio. La antelación depende del vehículo contratado." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-civtip="">Cancelación gratuita</span>
+                                                </div>
+                                    </div>
+                <div class="comfort-card__price l-list-card__price">
+                    <div class="comfort-card__price__text__wrapper">
+                        <span class="comfort-card__price__notice">
+                            por coche desde
+                        </span>
+                        <span class="comfort-card__price__text">62.783,12 <span><bdi>ARS</bdi></span></span>
+                                            </div>
+                </div>
+                                    <div class="comfort-card__cta l-list-card__cta">
+                        <span class="comfort-card__button l-list-card__button">Ver detalles</span>
+                    </div>
+                            </div>
+        </div>
+        <div class="m-availability"></div>
+    </a>
+</article>
+                        </div>
+                                                                                    
+                                                                <div class="o-search-list__item" id="activitiesItem_100732" data-activitiesitem="100732" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_100732" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="100732" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="accion-naturaleza">
+																									
+																																															
+				<a id="activity-like-button-7" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;100732&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:100732,&quot;name&quot;:&quot;Trekking por las sierras de Cordoba&quot;,&quot;price&quot;:19000,&quot;brand&quot;:23928,&quot;category&quot;:&quot;Accion y naturaleza&quot;,&quot;position&quot;:6,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/trekking-sierras-cordoba&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:95000}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/trekking-sierras-cordoba/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-100732" data-gtm-activity="100732" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Trekking por las sierras de Córdoba" title="Trekking por las sierras de Córdoba">
+			
+			<div class="comfort-card__img" id="activity-image-100732" style="height: 186px;">
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.civitatis.com/f/argentina/cordoba/trekking-sierras-cordoba-list.jpg" data-src-mobile="https://www.civitatis.com/f/argentina/cordoba/trekking-sierras-cordoba-list-m.jpg" alt="Trekking por las sierras de Córdoba">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Trekking por las sierras de Córdoba
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">8,4
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">10
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">74 viajeros</span>
+								<span class="comfort-card__traveler-count _k">74 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						<b>Descubre las cascadas, cuevas y quebradas de las sierras de Córdoba</b> con esta ruta de trekking por uno de los espacios más bonitos del interior argentino.
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-100732">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 15 horas" content=" 15 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 15 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español." content="La actividad se realiza con un guía que habla español." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _accion-naturaleza has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Acción y naturaleza" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Acción y naturaleza</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="100732" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="from-text _from_pjbab_5" data-testid="from">desde</div><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">95.000</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="100732" style="display: none;">
+																																				<span class="comfort-card__price__notice _outside">desde</span>
+																					<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">95.000 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_98218" data-activitiesitem="98218" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_98218" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="98218" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="excursiones">
+																									
+																																															
+				<a id="activity-like-button-8" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;98218&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:98218,&quot;name&quot;:&quot;Excursion a Jesus Maria y Colonia Caroya&quot;,&quot;price&quot;:15375,&quot;brand&quot;:16244,&quot;category&quot;:&quot;Excursiones de un dia&quot;,&quot;position&quot;:7,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/excursion-jesus-maria-colonia-caroya&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:61500}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/excursion-jesus-maria-colonia-caroya/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-98218" data-gtm-activity="98218" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Excursión a Jesús María y Colonia Caroya" title="Excursión a Jesús María y Colonia Caroya">
+			
+			<div class="comfort-card__img" id="activity-image-98218" style="height: 186px;">
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.civitatis.com/f/argentina/cordoba/excursion-jesus-maria-colonia-caroya-list.jpg" data-src-mobile="https://www.civitatis.com/f/argentina/cordoba/excursion-jesus-maria-colonia-caroya-list-m.jpg" alt="Excursión a Jesús María y Colonia Caroya">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Excursión a Jesús María y Colonia Caroya
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">9,3
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">6
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">27 viajeros</span>
+								<span class="comfort-card__traveler-count _k">27 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						Conoce el <b>legado jesuítico de la provincia argentina de Córdoba</b> con esta excursión a Jesús María y Caroya. ¡Déjate cautivar por su apasionante historia!
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-98218">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 4 horas" content=" 4 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 4 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español e inglés." content="La actividad se realiza con un guía que habla español e inglés." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _excursiones has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Excursiones de un día" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Excursiones de un día</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="98218" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">61.500</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="98218" style="display: none;">
+																																											<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">61.500 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_216161" data-activitiesitem="216161" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_216161" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="216161" data-countryid="366" data-longitude="-64.45271634806238" data-latitude="-31.737620805873878" data-categories="entradas">
+																									
+																																															
+				<a id="activity-like-button-9" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;216161&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:216161,&quot;name&quot;:&quot;Entrada al parque La Serranita&quot;,&quot;price&quot;:7125,&quot;brand&quot;:33228,&quot;category&quot;:&quot;Entradas&quot;,&quot;position&quot;:8,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/entrada-parque-serranita&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:34300}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/entrada-parque-serranita/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-216161" data-gtm-activity="216161" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Entrada al parque La Serranita" title="Entrada al parque La Serranita">
+			
+			<div class="comfort-card__img" id="activity-image-216161" style="height: 186px;">
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.civitatis.com/f/argentina/cordoba/entrada-parque-serranita-list.jpg" data-src-mobile="https://www.civitatis.com/f/argentina/cordoba/entrada-parque-serranita-list-m.jpg" alt="Entrada al parque La Serranita">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Entrada al parque La Serranita
+					</h2>
+					<div class="m-rating__list-container">
+																					<div class="m-rating">
+									<span class="text--rating-total u-nomargin">Sin valorar</span>
+								</div>
+																																										
+								<span class="comfort-card__traveler-count _full">2 viajeros</span>
+								<span class="comfort-card__traveler-count _k">2 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 24 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 24 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						¿Queréis pasarlo en grande? Reservad vuestra <b>entrada a La Serranita</b> y disfrutad de este famoso&nbsp;<b>parque recreativo al aire libre</b>&nbsp;situado a una hora de Córdoba.
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-216161">
+																																																																<span data-civtip="" class="comfort-card__feature _entradas has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Entradas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Entradas</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 24 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 24 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="216161" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">34.300</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="216161" style="display: none;">
+																																											<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">34.300 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 24 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 24 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_47680" data-activitiesitem="47680" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_47680" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="47680" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="visitas-guiadas">
+																									
+																																															
+				<a id="activity-like-button-10" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;47680&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:47680,&quot;name&quot;:&quot;Visita guiada por Cordoba&quot;,&quot;price&quot;:19525,&quot;brand&quot;:16244,&quot;category&quot;:&quot;Visitas guiadas y free tours&quot;,&quot;position&quot;:9,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/visita-guiada-cordoba&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:78100}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/visita-guiada-cordoba/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-47680" data-gtm-activity="47680" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Visita guiada por Córdoba" title="Visita guiada por Córdoba">
+			
+			<div class="comfort-card__img" id="activity-image-47680" style="height: 186px;">
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.civitatis.com/f/argentina/cordoba/visita-guiada-cordoba-list.jpg" data-src-mobile="https://www.civitatis.com/f/argentina/cordoba/visita-guiada-cordoba-list-m.jpg" alt="Visita guiada por Córdoba">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Visita guiada por Córdoba
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">9
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">14
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">161 viajeros</span>
+								<span class="comfort-card__traveler-count _k">161 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						Museos, diferentes estilos, palacios, iglesias y muchas plazas. Descubre <b>los lugares más especiales de Córdoba</b> en esta visita guiada por la ciudad. 
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-47680">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 4 horas" content=" 4 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 4 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español e inglés." content="La actividad se realiza con un guía que habla español e inglés." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _visita-guiada-free-tours has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Visitas guiadas y free tours" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Visitas guiadas y free tours</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="47680" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">78.100</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="47680" style="display: none;">
+																																											<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">78.100 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_98169" data-activitiesitem="98169" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_98169" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="98169" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="excursiones">
+																									
+																																															
+				<a id="activity-like-button-11" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;98169&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:98169,&quot;name&quot;:&quot;Excursion al Valle de Traslasierra&quot;,&quot;price&quot;:24200,&quot;brand&quot;:16244,&quot;category&quot;:&quot;Excursiones de un dia&quot;,&quot;position&quot;:10,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/excursion-valle-traslasierra&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:96800}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/excursion-valle-traslasierra/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-98169" data-gtm-activity="98169" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Excursión al Valle de Traslasierra" title="Excursión al Valle de Traslasierra">
+			
+			<div class="comfort-card__img" id="activity-image-98169" style="height: 186px;">
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.civitatis.com/f/argentina/cordoba/excursion-valle-traslasierra-list.jpg" data-src-mobile="https://www.civitatis.com/f/argentina/cordoba/excursion-valle-traslasierra-list-m.jpg" alt="Excursión al Valle de Traslasierra">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Excursión al Valle de Traslasierra
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">7,7
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">8
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">42 viajeros</span>
+								<span class="comfort-card__traveler-count _k">42 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						<b>Recorred el Valle de Traslasierra y sus pueblos con esta excursión desde Córdoba</b>. ¡Conoceréis lugares tan famosos como el balneario de los elefantes!
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-98169">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 10 horas" content=" 10 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 10 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español e inglés." content="La actividad se realiza con un guía que habla español e inglés." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _excursiones has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Excursiones de un día" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Excursiones de un día</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="98169" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">96.800</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="98169" style="display: none;">
+																																											<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">96.800 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_85096" data-activitiesitem="85096" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_85096" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="85096" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="excursiones">
+																									
+																																															
+				<a id="activity-like-button-12" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;85096&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:85096,&quot;name&quot;:&quot;Excursion a Villa Carlos Paz&quot;,&quot;price&quot;:15375,&quot;brand&quot;:16244,&quot;category&quot;:&quot;Excursiones de un dia&quot;,&quot;position&quot;:11,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/excursion-villa-carlos-paz&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:61500}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/excursion-villa-carlos-paz/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-85096" data-gtm-activity="85096" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Excursión a Villa Carlos Paz" title="Excursión a Villa Carlos Paz">
+			
+			<div class="comfort-card__img" id="activity-image-85096" style="height: 186px;">
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.civitatis.com/f/argentina/cordoba/excursion-villa-carlos-paz-list.jpg" data-src-mobile="https://www.civitatis.com/f/argentina/cordoba/excursion-villa-carlos-paz-list-m.jpg" alt="Excursión a Villa Carlos Paz">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Excursión a Villa Carlos Paz
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">9,2
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">12
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">103 viajeros</span>
+								<span class="comfort-card__traveler-count _k">103 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						Conoce el famoso Reloj Cu-cú y otras fascinantes sorpresas de Villa Carlos Paz con esta excursión desde Córdoba. <b>¡Una ruta junto al lago San Roque!</b>
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-85096">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 4 horas" content=" 4 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 4 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español e inglés." content="La actividad se realiza con un guía que habla español e inglés." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _excursiones has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Excursiones de un día" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Excursiones de un día</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="85096" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">61.500</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="85096" style="display: none;">
+																																											<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">61.500 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_47938" data-activitiesitem="47938" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_47938" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="47938" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="actividades-gastronomicas">
+																									
+																																															
+				<a id="activity-like-button-13" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;47938&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:47938,&quot;name&quot;:&quot;Excursion a las bodegas del Valle de Calamuchita&quot;,&quot;price&quot;:25000,&quot;brand&quot;:16244,&quot;category&quot;:&quot;Gastronomia y enoturismo&quot;,&quot;position&quot;:12,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/excursion-bodegas-valle-calamuchita&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:100000}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/excursion-bodegas-valle-calamuchita/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-47938" data-gtm-activity="47938" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Excursión a las bodegas del Valle de Calamuchita" title="Excursión a las bodegas del Valle de Calamuchita">
+			
+			<div class="comfort-card__img" id="activity-image-47938" style="height: 186px;">
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.civitatis.com/f/argentina/cordoba/excursion-bodegas-valle-calamuchita-list.jpg" data-src-mobile="https://www.civitatis.com/f/argentina/cordoba/excursion-bodegas-valle-calamuchita-list-m.jpg" alt="Excursión a las bodegas del Valle de Calamuchita">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Excursión a las bodegas del Valle de Calamuchita
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">9
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">2
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">17 viajeros</span>
+								<span class="comfort-card__traveler-count _k">17 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 24 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 24 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						En esta <strong>excursión por el Valle de Calamuchita</strong> os llevaremos a conocer sus pueblos, <b>visitaremos sus emblemáticas bodegas y conoceremos los vinos</b> de la zona.
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-47938">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 9 horas" content=" 9 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 9 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español e inglés." content="La actividad se realiza con un guía que habla español e inglés." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _gastronomia-enoturismo has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Gastronomía y enoturismo" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Gastronomía y enoturismo</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 24 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 24 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="47938" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">100.000</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="47938" style="display: none;">
+																																											<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">100.000 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 24 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 24 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_47323" data-activitiesitem="47323" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_47323" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="47323" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="excursiones">
+																									
+																																															
+				<a id="activity-like-button-14" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;47323&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:47323,&quot;name&quot;:&quot;Excursion a Alta Gracia&quot;,&quot;price&quot;:15375,&quot;brand&quot;:16244,&quot;category&quot;:&quot;Excursiones de un dia&quot;,&quot;position&quot;:13,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/excursion-alta-gracia&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:61500}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/excursion-alta-gracia/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-47323" data-gtm-activity="47323" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Excursión a Alta Gracia" title="Excursión a Alta Gracia">
+			
+			<div class="comfort-card__img" id="activity-image-47323" style="height: 186px;">
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.civitatis.com/f/argentina/cordoba/excursion-alta-gracia-list.jpg" data-src-mobile="https://www.civitatis.com/f/argentina/cordoba/excursion-alta-gracia-list-m.jpg" alt="Excursión a Alta Gracia">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Excursión a Alta Gracia
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">8,7
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">6
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">34 viajeros</span>
+								<span class="comfort-card__traveler-count _k">34 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						Explora Alta Gracia, un hermoso pueblo argentino entre naturaleza. Descubrirás <b>el legado jesuita y los hogares de dos personajes históricos</b>. 
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-47323">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 4 horas" content=" 4 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 4 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español e inglés." content="La actividad se realiza con un guía que habla español e inglés." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _excursiones has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Excursiones de un día" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Excursiones de un día</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="47323" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">61.500</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="47323" style="display: none;">
+																																											<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">61.500 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_47998" data-activitiesitem="47998" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_47998" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="47998" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="actividades-gastronomicas">
+																									
+																																															
+				<a id="activity-like-button-15" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;47998&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:47998,&quot;name&quot;:&quot;Excursion por las bodegas de Colonia Caroya&quot;,&quot;price&quot;:15375,&quot;brand&quot;:16244,&quot;category&quot;:&quot;Gastronomia y enoturismo&quot;,&quot;position&quot;:14,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/excursion-bodegas-colonia-caroya&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:61500}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/excursion-bodegas-colonia-caroya/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-47998" data-gtm-activity="47998" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Excursión por las bodegas de Colonia Caroya" title="Excursión por las bodegas de Colonia Caroya">
+			
+			<div class="comfort-card__img" id="activity-image-47998" style="height: 186px;">
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.civitatis.com/f/argentina/cordoba/excursion-bodegas-colonia-caroya-list.jpg" data-src-mobile="https://www.civitatis.com/f/argentina/cordoba/excursion-bodegas-colonia-caroya-list-m.jpg" alt="Excursión por las bodegas de Colonia Caroya">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Excursión por las bodegas de Colonia Caroya
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">9
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">6
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">68 viajeros</span>
+								<span class="comfort-card__traveler-count _k">68 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						Descubrid la tradición viticultora de Córdoba en el pueblo Colonia Caroya. Pasearéis por los viñedos y&nbsp;<b>conoceréis los vinos más típicos de la zona</b>.
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-47998">
+																																													<span class="comfort-card__feature _duration has-tip top _processed" title=" 4 horas" content=" 4 horas" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 4 horas
+								</span>
+																																																																																			<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español e inglés." content="La actividad se realiza con un guía que habla español e inglés." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _gastronomia-enoturismo has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Gastronomía y enoturismo" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Gastronomía y enoturismo</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="47998" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">61.500</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="47998" style="display: none;">
+																																											<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">61.500 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                            
+                                                                <div class="o-search-list__item" id="activitiesItem_185902" data-activitiesitem="185902" data-activitiestipo="1" data-testid="card_activity_list_page">
+                    
+
+
+
+				
+
+
+
+
+
+
+	<article data-cs-override-id="comfort_card_185902" data-auiversion="bd2e0be8db5e8c69" class="comfort-card
+										 _cancelation " data-activity="185902" data-countryid="366" data-longitude="0" data-latitude="0" data-categories="actividades-gastronomicas">
+																									
+																																															
+				<a id="activity-like-button-16" class="comfort-card__like js-fav-button js-lightbox is-lightlightbox fav-processed" data-fav-info="{&quot;cityId&quot;:&quot;366&quot;,&quot;productId&quot;:&quot;185902&quot;,&quot;productType&quot;:&quot;1&quot;}" data-fav-info-city="Córdoba" data-show-favs="1" data-show-favs-related="0" data-can-lightbox="true" data-gtm-new-model-add-to-wishlist="{&quot;event&quot;:&quot;add_to_wishlist&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;items&quot;:[null]},&quot;quantity&quot;:&quot;1&quot;}" href="#" title="like" data-testid="button_like_list_page" data-comebackbutton="true" data-extra-class="--login-general _comeback-wrapper login-form-new" data-comebackbuttontext="Mi cuenta" data-target-id="generic-login-favs-form">
+			<span class="comfort-card__like__label">like</span>
+		</a>
+		<a data-gtm-new-model-click="{&quot;event&quot;:&quot;productClick&quot;,&quot;ecommerce&quot;:{&quot;navigationCurrency&quot;:&quot;ARS&quot;,&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;click&quot;:{&quot;actionField&quot;:{&quot;list&quot;:&quot;Cordoba&quot;},&quot;products&quot;:[{&quot;id&quot;:185902,&quot;name&quot;:&quot;Tour de bodegas por Colonia Caroya con degustacion de vinos&quot;,&quot;price&quot;:43.75,&quot;brand&quot;:15100,&quot;category&quot;:&quot;Gastronomia y enoturismo&quot;,&quot;position&quot;:15,&quot;url&quot;:&quot;https:\/\/www.civitatis.com\/ar\/cordoba-argentina\/tour-bodegas-colonia-caroya&quot;,&quot;list&quot;:&quot;Cordoba&quot;,&quot;list_id&quot;:&quot;366&quot;,&quot;category2&quot;:0,&quot;category3&quot;:1,&quot;category4&quot;:&quot;13&quot;,&quot;dimension32&quot;:274676.16}]},&quot;is_from_guide&quot;:false,&quot;guide_name&quot;:&quot;&quot;}}" href="/ar/cordoba-argentina/tour-bodegas-colonia-caroya/" class="ga-trackEvent-element _activity-link" data-trackers="" id="data-gtm-185902" data-gtm-activity="185902" data-eventcategory="Actividades Listado" data-eventaction="click" data-eventlabel="Tour de bodegas por Colonia Caroya con degustación de vinos" title="Tour de bodegas por Colonia Caroya con degustación de vinos">
+			
+			<div class="comfort-card__img" id="activity-image-185902" style="height: 186px;">
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.civitatis.com/f/argentina/cordoba/tour-bodegas-colonia-caroya-list.jpg" data-src-mobile="https://www.civitatis.com/f/argentina/cordoba/tour-bodegas-colonia-caroya-list-m.jpg" alt="Tour de bodegas por Colonia Caroya con degustación de vinos">
+							</div>
+			<div class="comfort-card__content">
+				<div class="__left">
+					<h2 class="comfort-card__title" data-testid="title_activity_list_page">
+																				Tour de bodegas por Colonia Caroya con degustación de vinos
+					</h2>
+					<div class="m-rating__list-container">
+													<div class="m-rating">
+								<span class="m-rating--text">9,6
+									<span class="__total">
+										/ 10</span>
+								</span>
+								<span class="text--rating-total">5
+									opiniones</span>
+															</div>
+																																			
+								<span class="comfort-card__traveler-count _full">24 viajeros</span>
+								<span class="comfort-card__traveler-count _k">24 viajeros</span>
+																																						<div class="comfort-card__cancelation _show-filters-large">
+																					<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																			</div>
+																										</div>
+				</div>
+
+								<div class="__center">
+					<div class="comfort-card__text l-list-card__text">
+						En este <strong>tour de bodegas por Colonia Caroya</strong> descubriremos cómo es la elaboración de los <strong>mejores vinos del norte de Córdoba</strong>. ¡Degustación y almuerzo incluidos!
+					</div>
+				</div>
+								<div class="__right">
+					<div class="comfort-card__extra-info">
+						<div class="comfort-card__features" id="activity-features-185902">
+																																																				<span class="comfort-card__feature _duration has-tip top _processed" title=" 4 -  8h" content=" 4 -  8h" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="" aria-haspopup="true"> 4 -  8h
+								</span>
+																																																																												<span class="comfort-card__feature _lang has-tip top _processed" aria-haspopup="true" title="La actividad se realiza con un guía que habla español e inglés." content="La actividad se realiza con un guía que habla español e inglés." data-allow-html="true" data-tooltip-class="tooltip activity-tooltip" data-civtip="">Español</span>
+																																									<span data-civtip="" class="comfort-card__feature _gastronomia-enoturismo has-tip top _new-list-feature _feature-category _hide-for-grid-list _processed" title="Gastronomía y enoturismo" data-allow-html="true" data-tooltip-class="tooltip activity-tooltip city-list__feature-tooltip">Gastronomía y enoturismo</span>						</div>
+																											<div class="comfort-card__cancelation _hide-filters-large">
+																	<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+																</div>
+																		</div>
+					<div class="comfort-card__price-wrapper" data-aui-rendered="true">
+													<div class="price-container aui-price-block" data-activityid="185902" style="display: flex;"><div class="activity-ui-microfrontend"><div class="price-subcontainer _root_pjbab_1 _medium_pjbab_76"><div class="from-text _from_pjbab_5" data-testid="from">desde</div><div class="text-right"><span class="_price_pjbab_29" data-testid="price"><span class="price">274.676,16</span><span class="currency _currencyAfter_pjbab_37">ARS</span></span></div></div></div></div>
+											<div class="comfort-card__price l-list-card__price   aui-price-block-old  " data-activityid="185902" style="display: none;">
+																																				<span class="comfort-card__price__notice _outside">desde</span>
+																					<div class="comfort-card__price__text__wrapper">
+																							<span class="comfort-card__price__text">274.676,16 <span><bdi>ARS</bdi></span></span>
+														</div>
+													</div>
+											</div>
+											<div class="comfort-card__cta l-list-card__cta">
+							<span class="comfort-card__button l-list-card__button">Ver detalles</span>
+						</div>
+														</div>
+									<div class="__bottom hide">
+													<div class="comfort-card__cancelation _grid-cancelation">
+															<span class="has-tip top _processed" aria-haspopup="true" title="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." content="Cancelá sin costo hasta 48 horas antes de la actividad. Si cancelás con menos tiempo o no te presentás, no se ofrecerá reembolso." data-allow-html="true" data-tooltip-class="tooltip hide-for-small-only hide-for-medium-only activity-tooltip --small" data-disable-for-touch="true" data-civtip="">Cancelación gratuita</span>
+														</div>
+											</div>
+							</div>
+			<div class="m-availability"></div>
+		</a>
+	</article>
+
+                </div>
+                                
+    </div>
+
+<div class="o-search-list o-search-list--activities  _testA  " id="activities-container-map">
+</div>
+
+
+
+
+
+
+
+							
+
+
+
+
+
+				
+	
+	
+
+
+
+					<script>
+	var paginatedTitleTemplate = 'Excursiones, visitas guiadas y actividades en Córdoba - Página XX';
+</script>
+<div class="row">
+	<div class="columns o-pagination__showing" id="activitiesShowing">
+				<div class="left">17 actividades</div>
+
+				<div class="right">Mostrando 1-17</div>
+	</div>
+</div>
+<div class="row">
+	<div class="large-12 columns">
+																																									<nav class="o-pagination o-pagination_b u-margin_lateral_30_large u-no-margin_lateral_xlarge hide" id="activitiesPagination">
+												<div class="left --no-icon">
+													<span class="first-element --deactivated">
+						primera
+					</span>
+					<span class="prev-element --deactivated">
+						anterior
+					</span>
+							</div>
+
+						<div class="o-pagination__center">
+																
+																																																																												
+																									
+																				
+					
+										
+															
+					
+																<span id="activity-list-pagination-1" class="paginationElement is-selected" data-page="1" title="Excursiones, visitas guiadas y actividades en Córdoba - Página 1">Página 1</span>
+												</div>
+
+												<div class="right --no-icon">
+													<span class="next-element --deactivated" data-page="2">
+						siguiente
+					</span>
+					<span class="last-element --deactivated" data-page="1">
+						última
+					</span>
+							</div>
+		</nav>
+	</div>
+</div>
+
+
+                                            </div>                    </div>
+                                                                                        
+                                            <section class="poi-footer">
+    <div class="poi-footer__content">
+                <h2 class="poi-footer__title">Tours y actividades en Córdoba | Descubrí lo mejor</h2>
+                <div class="poi-footer__text">
+        <p>
+Córdoba, la segunda ciudad más grande de Argentina, combina el ritmo universitario con una movida cultural única, rodeada de sierras y paisajes increíbles. Ya quieras pasear por su centro histórico, probar la mejor gastronomía cordobesa o explorar sus alrededores llenos de naturaleza, siempre hay algo nuevo para descubrir.
+</p>
+
+<h3>Un poco de historia</h3>
+<p>
+Fundada en 1573 por Jerónimo Luis de Cabrera, Córdoba se convirtió en uno de los focos principales del virreinato y más tarde en un centro educativo clave, gracias a su universidad, la más antigua del país. Esta mezcla de pasado colonial y juventud la hacen distinta a cualquier otra ciudad argentina.
+</p>
+
+<h3>¿Cuándo es mejor ir?</h3>
+<p>
+Si bien Córdoba se puede visitar todo el año, la primavera y el verano suelen ser ideales para disfrutar de las sierras, los ríos y los festivales al aire libre. En otoño e invierno, la ciudad ofrece un ambiente más tranquilo y temperaturas acordes para recorrer museos y cafés.
+</p>
+
+<h3>¿Cuánto tiempo me conviene quedarme?</h3>
+<p>
+Con dos o tres días podés conocer lo más importante del centro y hacer alguna excursión a los alrededores. Si querés sumarle actividades en naturaleza, una semana entera vas a aprovechar al máximo.
+</p>
+
+<h3>¿Hace falta reservar las excursiones con anticipación?</h3>
+<p>
+Especialmente en temporada alta y feriados, es aconsejable reservar antes. De esa forma te asegurás tu lugar y evitás contratiempos.
+</p>
+
+<h3>¿Por qué elegir Civitatis?</h3>
+<ul>
+  <li><strong>Variedad:</strong> Encontrá opciones para todos los gustos, desde city tours a trekkings en las sierras.</li>
+  <li><strong>Guías locales:</strong> Conocé de primera mano los secretos y tradiciones cordobesas.</li>
+  <li><strong>Reserva fácil y segura:</strong> Elegí y pagá online sin vueltas ni sorpresas.</li>
+  <li><strong>Cancelación flexible:</strong> Modificá o cancelá según tus necesidades.</li>
+</ul>
+
+        </div>
+    </div>
+
+</section>                    
+
+                                                                                                                                                                                                                
+                                            <div class="o-city-map" id="city-map"></div>
+                        <div class="m-map-filters__container" id="map-filters-container"></div>
+                        <div class="m-city-map-popup__panel" id="map-popup__panel">
+                            <div class="m-city-map-popup__close-button" id="m-city-map-popup__close-button"></div>
+                            <div class="m-city-map-popup__container" id="map-popup__container"></div>
+                        </div>
+                        <div class="m-map-mobile-header" id="map-mobile-header">
+                            <span class="__back"></span>
+                            <span class="__title">
+                                <span class="__dest">Córdoba</span>
+                                <span class="__country">Argentina</span>
+                            </span>
+                            <span class="__filter"></span>
+                        </div>
+                                    </div>
