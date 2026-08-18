@@ -1,0 +1,18 @@
+{
+  "name": "ms3-armado",
+  "version": "1.0.0",
+  "description": "Microservicio de armado de planes de viaje con Gemini para FREEVAGO",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "mongoose": "^8.9.0"
+  },
+  "license": "ISC"
+}
