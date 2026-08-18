@@ -1,0 +1,442 @@
+{
+    "metadata": {
+        "origen": {
+            "input": "Córdoba, Argentina",
+            "iata": "COR",
+            "nombreIngles": "Córdoba, Argentina"
+        },
+        "destino": {
+            "input": "Miami, Estados Unidos",
+            "oficial": "Miami, Estados Unidos",
+            "slug": "Miami_Estados_Unidos",
+            "iata": "MIA",
+            "nombreIngles": "Miami, Estados Unidos"
+        },
+        "viaje": {
+            "ida": "2026-10-20",
+            "vuelta": "2026-10-28",
+            "pasajeros": 1,
+            "presupuestoPorPersona": 1500000
+        }
+    },
+    "resultados": {
+        "vuelos": {
+            "totalEncontrados": 10,
+            "dentroDelPresupuesto": 10,
+            "opciones": [
+                {
+                    "price": "$575",
+                    "legs": [
+                        {
+                            "time": "5:10 am – 3:20 pm",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "LIM 1h 05m layover, Lima J Chavez Intl",
+                            "duration": "11h 10m",
+                            "route": "COR-MIA"
+                        },
+                        {
+                            "time": "9:35 pm – 6:45 pm+1",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "SCL 10h 11m layover, Santiago Arturo Merino Benitez",
+                            "duration": "20h 10m",
+                            "route": "MIA-COR"
+                        }
+                    ],
+                    "rawText": "Best | Cheapest | 5:10 am – 3:20 pm | LATAM Airlines | 1 stop | LIM 1h 05m layover, Lima J Chavez Intl | 11h 10m | COR | - | MIA | 9:35 pm – 6:45 pm+1 | LATAM Airlines | 1 stop | SCL 10h 11m layover, Santiago Arturo Merino Benitez | 20h 10m | MIA | - | COR | $575 | Light | Select"
+                },
+                {
+                    "price": "$575",
+                    "legs": [
+                        {
+                            "time": "9:11 pm – 7:45 am+1",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "SCL 1h 10m layover, Santiago Arturo Merino Benitez",
+                            "duration": "11h 34m",
+                            "route": "COR-MIA"
+                        },
+                        {
+                            "time": "9:35 pm – 6:45 pm+1",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "SCL 10h 11m layover, Santiago Arturo Merino Benitez",
+                            "duration": "20h 10m",
+                            "route": "MIA-COR"
+                        }
+                    ],
+                    "rawText": "9:11 pm – 7:45 am+1 | LATAM Airlines | 1 stop | SCL 1h 10m layover, Santiago Arturo Merino Benitez | 11h 34m | COR | - | MIA | 9:35 pm – 6:45 pm+1 | LATAM Airlines | 1 stop | SCL 10h 11m layover, Santiago Arturo Merino Benitez | 20h 10m | MIA | - | COR | $575 | Light | Select"
+                },
+                {
+                    "price": "$679",
+                    "legs": [
+                        {
+                            "time": "7:25 am – 6:05 pm",
+                            "airline": "Avianca",
+                            "stops": "1 stop",
+                            "layover": "BOG 1h 50m layover, Bogotá El Dorado",
+                            "duration": "11h 40m",
+                            "route": "COR-MIA"
+                        },
+                        {
+                            "time": "5:35 pm – 6:20 am+1",
+                            "airline": "Avianca",
+                            "stops": "1 stop",
+                            "layover": "BOG 2h 00m layover, Bogotá El Dorado",
+                            "duration": "11h 45m",
+                            "route": "MIA-COR"
+                        }
+                    ],
+                    "rawText": "7:25 am – 6:05 pm | Avianca | 1 stop | BOG 1h 50m layover, Bogotá El Dorado | 11h 40m | COR | - | MIA | 5:35 pm – 6:20 am+1 | Avianca | 1 stop | BOG 2h 00m layover, Bogotá El Dorado | 11h 45m | MIA | - | COR | $679 | Light | Select"
+                },
+                {
+                    "price": "$575",
+                    "legs": [
+                        {
+                            "time": "5:10 am – 3:20 pm",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "LIM 1h 05m layover, Lima J Chavez Intl",
+                            "duration": "11h 10m",
+                            "route": "COR-MIA"
+                        },
+                        {
+                            "time": "8:10 pm – 6:45 pm+1",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "SCL 11h 36m layover, Santiago Arturo Merino Benitez",
+                            "duration": "21h 35m",
+                            "route": "MIA-COR"
+                        }
+                    ],
+                    "rawText": "5:10 am – 3:20 pm | LATAM Airlines | 1 stop | LIM 1h 05m layover, Lima J Chavez Intl | 11h 10m | COR | - | MIA | 8:10 pm – 6:45 pm+1 | LATAM Airlines | 1 stop | SCL 11h 36m layover, Santiago Arturo Merino Benitez | 21h 35m | MIA | - | COR | $575 | Light | Select"
+                },
+                {
+                    "price": "$575",
+                    "legs": [
+                        {
+                            "time": "9:11 pm – 7:45 am+1",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "SCL 1h 10m layover, Santiago Arturo Merino Benitez",
+                            "duration": "11h 34m",
+                            "route": "COR-MIA"
+                        },
+                        {
+                            "time": "8:10 pm – 6:45 pm+1",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "SCL 11h 36m layover, Santiago Arturo Merino Benitez",
+                            "duration": "21h 35m",
+                            "route": "MIA-COR"
+                        }
+                    ],
+                    "rawText": "9:11 pm – 7:45 am+1 | LATAM Airlines | 1 stop | SCL 1h 10m layover, Santiago Arturo Merino Benitez | 11h 34m | COR | - | MIA | 8:10 pm – 6:45 pm+1 | LATAM Airlines | 1 stop | SCL 11h 36m layover, Santiago Arturo Merino Benitez | 21h 35m | MIA | - | COR | $575 | Light | Select"
+                },
+                {
+                    "price": "$679",
+                    "legs": [
+                        {
+                            "time": "7:25 am – 6:05 pm",
+                            "airline": "Avianca",
+                            "stops": "1 stop",
+                            "layover": "BOG 1h 50m layover, Bogotá El Dorado",
+                            "duration": "11h 40m",
+                            "route": "COR-MIA"
+                        },
+                        {
+                            "time": "2:00 pm – 6:20 am+1",
+                            "airline": "Avianca",
+                            "stops": "1 stop",
+                            "layover": "BOG 5h 30m layover, Bogotá El Dorado",
+                            "duration": "15h 20m",
+                            "route": "MIA-COR"
+                        }
+                    ],
+                    "rawText": "7:25 am – 6:05 pm | Avianca | 1 stop | BOG 1h 50m layover, Bogotá El Dorado | 11h 40m | COR | - | MIA | 2:00 pm – 6:20 am+1 | Avianca | 1 stop | BOG 5h 30m layover, Bogotá El Dorado | 15h 20m | MIA | - | COR | $679 | Light | Select"
+                },
+                {
+                    "price": "$575",
+                    "legs": [
+                        {
+                            "time": "5:10 am – 8:35 pm",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "LIM 6h 20m layover, Lima J Chavez Intl",
+                            "duration": "16h 25m",
+                            "route": "COR-MIA"
+                        },
+                        {
+                            "time": "9:35 pm – 6:45 pm+1",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "SCL 10h 11m layover, Santiago Arturo Merino Benitez",
+                            "duration": "20h 10m",
+                            "route": "MIA-COR"
+                        }
+                    ],
+                    "rawText": "5:10 am – 8:35 pm | LATAM Airlines | 1 stop | LIM 6h 20m layover, Lima J Chavez Intl | 16h 25m | COR | - | MIA | 9:35 pm – 6:45 pm+1 | LATAM Airlines | 1 stop | SCL 10h 11m layover, Santiago Arturo Merino Benitez | 20h 10m | MIA | - | COR | $575 | Light | Select"
+                },
+                {
+                    "price": "$575",
+                    "legs": [
+                        {
+                            "time": "5:10 am – 8:35 pm",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "LIM 6h 20m layover, Lima J Chavez Intl",
+                            "duration": "16h 25m",
+                            "route": "COR-MIA"
+                        },
+                        {
+                            "time": "8:10 pm – 6:45 pm+1",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "SCL 11h 36m layover, Santiago Arturo Merino Benitez",
+                            "duration": "21h 35m",
+                            "route": "MIA-COR"
+                        }
+                    ],
+                    "rawText": "5:10 am – 8:35 pm | LATAM Airlines | 1 stop | LIM 6h 20m layover, Lima J Chavez Intl | 16h 25m | COR | - | MIA | 8:10 pm – 6:45 pm+1 | LATAM Airlines | 1 stop | SCL 11h 36m layover, Santiago Arturo Merino Benitez | 21h 35m | MIA | - | COR | $575 | Light | Select"
+                },
+                {
+                    "price": "$835",
+                    "legs": [
+                        {
+                            "time": "7:03 am – 4:37 pm",
+                            "airline": "Copa Airlines",
+                            "stops": "1 stop",
+                            "layover": "PTY 0h 43m layover, Panama City Tocumen Intl",
+                            "duration": "10h 34m",
+                            "route": "COR-MIA"
+                        },
+                        {
+                            "time": "12:25 pm – 12:31 am+1",
+                            "airline": "Copa Airlines",
+                            "stops": "1 stop",
+                            "layover": "PTY 1h 21m layover, Panama City Tocumen Intl",
+                            "duration": "11h 06m",
+                            "route": "MIA-COR"
+                        }
+                    ],
+                    "rawText": "7:03 am – 4:37 pm | Copa Airlines | 1 stop | PTY 0h 43m layover, Panama City Tocumen Intl | 10h 34m | COR | - | MIA | 12:25 pm – 12:31 am+1 | Copa Airlines | 1 stop | PTY 1h 21m layover, Panama City Tocumen Intl | 11h 06m | MIA | - | COR | $835 | Economy Cabin | Select"
+                },
+                {
+                    "price": "$617",
+                    "legs": [
+                        {
+                            "time": "7:45 am – 8:35 pm",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "LIM 3h 45m layover, Lima J Chavez Intl",
+                            "duration": "13h 50m",
+                            "route": "COR-MIA"
+                        },
+                        {
+                            "time": "9:35 pm – 6:45 pm+1",
+                            "airline": "LATAM Airlines",
+                            "stops": "1 stop",
+                            "layover": "SCL 10h 11m layover, Santiago Arturo Merino Benitez",
+                            "duration": "20h 10m",
+                            "route": "MIA-COR"
+                        }
+                    ],
+                    "rawText": "7:45 am – 8:35 pm | LATAM Airlines | 1 stop | LIM 3h 45m layover, Lima J Chavez Intl | 13h 50m | COR | - | MIA | 9:35 pm – 6:45 pm+1 | LATAM Airlines | 1 stop | SCL 10h 11m layover, Santiago Arturo Merino Benitez | 20h 10m | MIA | - | COR | $617 | Light | Select"
+                }
+            ]
+        },
+        "hoteles": {
+            "totalEncontrados": 15,
+            "dentroDelPresupuesto": 6,
+            "opciones": [
+                {
+                    "name": "Holiday Inn Express & Suites Miami Intl Airport - 36th St by IHG",
+                    "price": "$ 1.468.134",
+                    "rating": "9,4",
+                    "rawText": "Holiday Inn Express & Suites Miami Intl Airport - 36th St by IHG | Se abre en una ventana nueva | Anuncio | Este alojamiento paga un poco más para aparecer en esta posición y, además, cumple con tus criterios de búsqueda. | MiamiMostrar en el mapaa 11 km del centro | Puntuación: 9,4 | 9,4 | Fantástico | 25 comentarios | Confort 9,3 | Habitación Doble para no fumadores - Adaptada para personas con deficiencia auditiva - 2 camas dobles | Aire acondicionado | 2 camas dobles grandes | Desayuno incluido | 8 noches, 1 adulto | $ 1.468.134 | Precio $ 1.468.134 | + $ 190.857 de impuestos y cargos | Ver disponibilidad"
+                },
+                {
+                    "name": "Clarion Inn & Suites Miami International Airport",
+                    "price": "$ 1.023.874",
+                    "rating": "7,1",
+                    "rawText": "Clarion Inn & Suites Miami International Airport | Se abre en una ventana nueva | Miami Springs, MiamiMostrar en el mapaa 9,8 km del centro | Puntuación: 7,1 | 7,1 | Bien | 4.491 comentarios | Habitación Doble con 2 camas dobles - No fumadores | Aire acondicionado | 2 camas dobles | Cancelación gratis | Sin pago por adelantado - Pagarás en el alojamiento | Nos quedan 5 a este precio | 8 noches, 1 adulto | $ 1.023.874 | Precio $ 1.023.874 | + $ 133.104 de impuestos y cargos | Ver disponibilidad"
+                },
+                {
+                    "name": "Wingate by Wyndham Miami Airport",
+                    "price": "$ 1.136.192",
+                    "rating": "7,8",
+                    "rawText": "Wingate by Wyndham Miami Airport | Se abre en una ventana nueva | Doral, MiamiMostrar en el mapaa 13,7 km del centro | Puntuación: 7,8 | 7,8 | Bien | 5.601 comentarios | Confort 8,1 | Habitación con cama extragrande. | Aire acondicionado | 1 cama doble extragrande | Desayuno incluido | Cancelación gratis | Sin pago por adelantado - Pagarás en el alojamiento | 8 noches, 1 adulto | $ 1.136.192 | Precio $ 1.136.192 | + $ 147.705 de impuestos y cargos | Ver disponibilidad"
+                },
+                {
+                    "name": "Quality Inn Miami Airport - Doral",
+                    "price": "$ 898.128",
+                    "rating": "4,8",
+                    "rawText": "Quality Inn Miami Airport - Doral | Se abre en una ventana nueva | Destacado | Este alojamiento se ajusta a tus criterios y puede aparecer más arriba en tus resultados de búsqueda. Nos pagará una comisión más alta al recibir una reserva. | Doral, MiamiMostrar en el mapaa 13,7 km del centro | Puntuación: 4,8 | 4,8 | Puntuación | 4.268 comentarios | Habitación Doble con 2 camas dobles - No fumadores | Aire acondicionado | 2 camas dobles | Desayuno incluido | Cancelación gratis | Sin pago por adelantado - Pagarás en el alojamiento | 8 noches, 1 adulto | $ 898.128 | Precio $ 898.128 | + $ 116.757 de impuestos y cargos | Ver disponibilidad"
+                },
+                {
+                    "name": "Sleep Inn Miami Airport",
+                    "price": "$ 1.085.151",
+                    "rating": "7,2",
+                    "rawText": "Sleep Inn Miami Airport | Se abre en una ventana nueva | Miami Springs, MiamiMostrar en el mapaa 10 km del centro | Puntuación: 7,2 | 7,2 | Bien | 5.349 comentarios | Habitación con cama grande | Aire acondicionado | 1 cama doble grande | Desayuno incluido | 8 noches, 1 adulto | $ 1.085.151 | Precio $ 1.085.151 | + $ 141.070 de impuestos y cargos | Ver disponibilidad"
+                },
+                {
+                    "name": "Days Inn by Wyndham Miami Airport North",
+                    "price": "$ 867.452",
+                    "rating": "6,4",
+                    "rawText": "Days Inn by Wyndham Miami Airport North | Se abre en una ventana nueva | Miami Springs, MiamiMostrar en el mapaa 9,2 km del centro | Puntuación: 6,4 | 6,4 | Puntuación | 4.535 comentarios | Habitación - No fumadores - Cama grande | Aire acondicionado | 1 cama doble grande | 8 noches, 1 adulto | $ 867.452 | Precio $ 867.452 | + $ 112.769 de impuestos y cargos | Ver disponibilidad"
+                }
+            ]
+        },
+        "actividades": {
+            "totalEncontrados": 35,
+            "dentroDelPresupuesto": 18,
+            "opciones": [
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Tour de compras por los outlets de Miami",
+                    "duracionEstimada": "8hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$31.926",
+                    "descripcionBreve": "¿Sois aficionados al shopping? Disfrutaréis de un día de compras por uno de los outlets más conocidos de Miami. ¡Miles de descuentos os esperan!"
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Paseo en barco por Las Casas de los Famosos",
+                    "duracionEstimada": "1h 10m",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$42.573",
+                    "descripcionBreve": "En este paseo en barco por la Bahía Vizcaína veremos las islas de los famosos y sus mansiones. Descubrid la cara más lujosa y fotografiada de Miami."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Miami Heat",
+                    "duracionEstimada": "08 de octubre 19:30hs, 10 de octubre 20:00hs, 14 de octubre 19:30hs, 21 de octubre 19:30hs, 23 de octubre 20:00hs, 26 de octubre 19:30hs, 30 de octubre 20:00hs, 13 de noviembre 20:00hs, 14 de noviembre 20:00hs, 16 de noviembre 19:30hs, 18 de noviembre 19:00hs, 22 de noviembre 18:00hs, 01 de diciembre 19:30hs, 03 de diciembre 19:30hs, 12 de diciembre 20:30hs, 18 de diciembre 19:00hs, 20 de diciembre 18:00hs, 21 de diciembre 19:30hs, 23 de diciembre 19:30hs, 27 de diciembre 18:00hs, 05 de enero 19:30hs, 10 de enero 18:00hs, 12 de enero 19:30hs, 17 de enero 18:00hs, 19 de enero 19:30hs, 23 de enero 20:00hs, 30 de enero 12:30hs, 02 de febrero 19:30hs, 04 de febrero 19:30hs, 14 de febrero 13:00hs, 15 de febrero 17:00hs, 02 de marzo 19:30hs, 03 de marzo 19:30hs, 06 de marzo 15:00hs, 08 de marzo 19:30hs, 10 de marzo 19:00hs, 21 de marzo 18:00hs, 23 de marzo 20:00hs, 25 de marzo 19:30hs, 27 de marzo 20:00hs, 08 de abril 19:00hs, 09 de abril 20:00hs, 11 de abril 18:00hs",
+                    "franjaHoraria": "08 de octubre 19:30hs, 10 de octubre 20:00hs, 14 de octubre 19:30hs, 21 de octubre 19:30hs, 23 de octubre 20:00hs, 26 de octubre 19:30hs, 30 de octubre 20:00hs, 13 de noviembre 20:00hs, 14 de noviembre 20:00hs, 16 de noviembre 19:30hs, 18 de noviembre 19:00hs, 22 de noviembre 18:00hs, 01 de diciembre 19:30hs, 03 de diciembre 19:30hs, 12 de diciembre 20:30hs, 18 de diciembre 19:00hs, 20 de diciembre 18:00hs, 21 de diciembre 19:30hs, 23 de diciembre 19:30hs, 27 de diciembre 18:00hs, 05 de enero 19:30hs, 10 de enero 18:00hs, 12 de enero 19:30hs, 17 de enero 18:00hs, 19 de enero 19:30hs, 23 de enero 20:00hs, 30 de enero 12:30hs, 02 de febrero 19:30hs, 04 de febrero 19:30hs, 14 de febrero 13:00hs, 15 de febrero 17:00hs, 02 de marzo 19:30hs, 03 de marzo 19:30hs, 06 de marzo 15:00hs, 08 de marzo 19:30hs, 10 de marzo 19:00hs, 21 de marzo 18:00hs, 23 de marzo 20:00hs, 25 de marzo 19:30hs, 27 de marzo 20:00hs, 08 de abril 19:00hs, 09 de abril 20:00hs, 11 de abril 18:00hs",
+                    "precioPorPersona": "$10.647",
+                    "descripcionBreve": "La emoción de Miami Heat te espera en Miami. Este es el escenario donde los límites se superan y cada segundo cuenta. Las estrategias, el talento y la entrega de los deportistas harán que no puedas ap..."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Excursión por libre a las islas Bahamas",
+                    "duracionEstimada": "18hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$357.435",
+                    "descripcionBreve": "En esta excursión por libre a Bahamas navegaréis desde Miami a Freeport, en la isla Gran Bahama, o a las islas Bimini. ¡Sus paisajes caribeños os cautivarán!"
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Excursión a Walt Disney World Resort Orlando",
+                    "duracionEstimada": "17hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$234.234",
+                    "descripcionBreve": "Dejad volar la imaginación a un mundo de fantasía con las atracciones y espectáculos del Walt Disney World Resort de Orlando. ¡Perfecto para mayores y niños!"
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Free tour por Miami",
+                    "duracionEstimada": "2hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "¡Gratis!",
+                    "descripcionBreve": "Si acabáis de llegar al destino más popular de Florida, este free tour por Miami es ideal. Recorreremos el Downtown, el distrito más céntrico de la ciudad."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Entradas para un partido del Inter Miami CF",
+                    "duracionEstimada": "No especificada",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$172.999",
+                    "descripcionBreve": "Asistid a un partido del Inter Miami CF y disfrutad de la magia del equipo de Messi en el Miami Freedom Park. ¡Imprescindible para los amantes del fútbol!"
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Rosalia",
+                    "duracionEstimada": "3hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$407.628",
+                    "descripcionBreve": "Obtenga entradas para los partidos de Concerts - Rosalia, experimente la acción en vivo y disfrute de la atmósfera única del emocionante partido de Concerts - Rosalia, que tendrá lugar en el impresion..."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Crucero nocturno por Miami",
+                    "duracionEstimada": "1h 30m",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$42.573",
+                    "descripcionBreve": "En este crucero nocturno por Miami disfrutaremos de las mejores vistas del skyline de la ciudad, una de las más icónicas de Florida. ¡No os lo podéis perder!"
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Entradas para Walt Disney World Resort Orlando",
+                    "duracionEstimada": "No especificada",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$216.606",
+                    "descripcionBreve": "Con vuestra entrada para Walt Disney World Resort podréis sumergiros en la magia de los cuatro Parques temáticos más famosos de Orlando. ¡Un mundo de fantasía!"
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "De Miami a Orlando - Traslado en tren por Brightline",
+                    "duracionEstimada": "3hs 30m",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$115.596",
+                    "descripcionBreve": "Sin descripción disponible"
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Entradas para la NBA: Miami Heat",
+                    "duracionEstimada": "3hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$88.659",
+                    "descripcionBreve": "Disfrutad de un evento deportivo inolvidable asistiendo a un partido de la NBA. Veréis a los Miami Heat en su casa, el Kaseya Center. ¡No os lo podéis perder!"
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Inter Miami CF",
+                    "duracionEstimada": "22 de agosto 19:30hs, 29 de agosto 19:30hs, 05 de septiembre 19:30hs, 12 de septiembre 19:30hs, 16 de septiembre 19:30hs, 20 de septiembre 19:30hs, 10 de octubre 19:30hs, 14 de octubre 19:30hs, 28 de octubre 19:30hs, 07 de noviembre 16:00hs",
+                    "franjaHoraria": "22 de agosto 19:30hs, 29 de agosto 19:30hs, 05 de septiembre 19:30hs, 12 de septiembre 19:30hs, 16 de septiembre 19:30hs, 20 de septiembre 19:30hs, 10 de octubre 19:30hs, 14 de octubre 19:30hs, 28 de octubre 19:30hs, 07 de noviembre 16:00hs",
+                    "precioPorPersona": "$73.008",
+                    "descripcionBreve": "La emoción de Inter Miami CF te espera en Miami. Este es el escenario donde los límites se superan y cada segundo cuenta. Las estrategias, el talento y la entrega de los deportistas harán que no pueda..."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Excursión a Cayo Hueso",
+                    "duracionEstimada": "14hs",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$68.430",
+                    "descripcionBreve": "En esta excursión desde Miami visitaremos Cayo Hueso, un destino turístico de Estados Unidos famoso por sus atardeceres y por haber sido hogar de Hemingway."
+                },
+                {
+                    "origen": "Turismocity",
+                    "titulo": "Billete electrónico del tren Brightline desde Miami",
+                    "duracionEstimada": "Tarifas sujetas a cambios sin previo aviso y disponibilidad, solo ida Podrán disfrutar de sus diferentes destinos, estaciones modernas, comodidad a bordo para un viaje placentero sin tener que lidiar con el tráfico pesado del sur de Florida. Tiene varias salidas al día tanto desde Miami como desde Orlando, lo que permite la conexión ya sea a la llegada o salida del Aeropuerto Internacional de Miami, mediante un servicio de transporte que tendrá un cargo adicional. La estación Brightline en Miami está ubicada en el corazón del centro de la ciudad a poca distancia de museos, el Arena (lugar para eventos y conciertos), Biscayne Mall, Puerto de Miami, etc. Nuestros boletos son ORL All Access para cualquier combinación entre estaciones del sur de Florida (MiamiCentral, Aventura, Fort Lauderdale, Boca Raton, West Palm Beach) y Orlando. En ambas direcciones: hacia el sur (Southbound) o hacia el norte (Northbound). La ruta tiene paradas cortas de solo 4 minutos, en las ciudades de Aventura, Fort Lauderdale, Boca Raton, West Palm Beach hasta su destino final en la ciudad de Orlando, para un total de 3 1/2 horas de viaje. Para reservar, necesitará: Nombre y apellidos de cada persona, junto con su fecha de nacimiento. Al solicitar su reserva, indique la hora a la que necesita abordar el tren. Las tarifas para niños se aplican a niños de 2 a 12 años. Nota: Los horarios de salida no se pueden garantizar hasta que se emita el billete. Si el horario solicitado no está disponible, le ofreceremos otros horarios de salida disponibles. Una vez emitido el billete de tren, no podrá cambiar de estación, incluso si se trata de un billete de acceso completo. Debe comenzar su viaje desde la estación para la que se emitió el billete. Política de equipaje Se permiten hasta dos (2) bolsos de mano pequeños y un artículo personal, como un bolso pequeño, mochila o cartera, sin cargo. Los bolsos de mano no pueden exceder las siguientes dimensiones y peso: Dimensiones máximas: 60 cm x 40 cm x 25 cm y Peso máximo: 22 kg. Todo el demás equipaje debe ser facturado y se aplican cargos adicionales. Las maletas facturadas tienen un cargo de $30 USD por maleta, y $60 USD para maletas que excedan estas dimensiones o 22 kg hasta 32 kg. (No se aceptará equipaje que exceda los 32 kg). Los pasajeros de Clase Premium tienen derecho a una maleta facturada gratuita. *Sujeto a disponibilidad de espacio, evaluación de tamaño, cargos aplicables y tarifas de equipaje sujetas a cambios sin previo aviso. Tamaños y pesos de equipaje con tarifas ($30 o $60 USD)Equipaje facturado estándar: maletas de hasta 22 kg y dimensiones externas de hasta (73 × 50 × 33 cm), o 156 cm lineales (largo + ancho + alto)Equipaje facturado grande: maletas grandes de hasta 31 kg y que midan hasta (83 × 55 × 38 cm) o 176 cm lineales en dimensiones externasLa clase Smart incluye:- Wi-Fi a bordo gratuito- Múltiples tomas de corriente y puertos USB en cada asiento- Asientos de cuero cosidos a mano de 19 pulgadas- Refrigerios a bordo disponibles para la compra- Bebidas a bordo disponibles para la compra- Tarifas bajas por hora y por día en nuestros garajesLa clase Premium incluye:- Wi-Fi a bordo gratuito- Múltiples tomas de corriente y puertos USB en cada asiento- Embarque prioritario- Asientos de cuero cosidos a mano de 21 pulgadas- Refrigerios de cortesía- Bebidas de cortesía- Acceso a la sala VIP: servicios que incluyen iPads, escáner e impresora, además de acceso a salas de conferencias en nuestras estaciones. Adaptadores y cargadores disponibles bajo petición. Tarifas bajas por hora y por día en nuestros garajes.",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "$35.348",
+                    "descripcionBreve": "Sin descripción disponible"
+                },
+                {
+                    "origen": "Civitatis",
+                    "titulo": "Traslados en Miami",
+                    "duracionEstimada": "No especificada",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "ARS $ 0",
+                    "descripcionBreve": "Servicio privado, puerta a puerta y al mejor precio. Un chófer los esperará en el aeropuerto, en el hotel o dónde quieran para llevarlos a su destino de forma rápida y segura."
+                },
+                {
+                    "origen": "Civitatis",
+                    "titulo": "Free tour por Miami",
+                    "duracionEstimada": "2 horas",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "ARS $ 0",
+                    "descripcionBreve": "Si acabáis de llegar al destino más popular de Florida, este free tour por Miami es ideal. Recorreremos el Downtown, el distrito más céntrico de la ciudad."
+                },
+                {
+                    "origen": "Civitatis",
+                    "titulo": "Tarjeta eSIM Civitatis Estados Unidos",
+                    "duracionEstimada": "No especificada",
+                    "franjaHoraria": "No especificada",
+                    "precioPorPersona": "ARS $ 6.278,71",
+                    "descripcionBreve": "Con esta tarjeta eSIM podréis conectaros a Internet en cualquier lugar de Estados Unidos. ¡La mejor forma de chatear y subir fotos a vuestras redes sociales!"
+                }
+            ]
+        }
+    }
+}

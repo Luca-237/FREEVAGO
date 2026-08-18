@@ -1,0 +1,19 @@
+{
+  "name": "microservicio-scrappers",
+  "version": "1.0.0",
+  "description": "Microservicio unificado de scrappers para FREEVAGO",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "puppeteer": "^25.7.0",
+    "puppeteer-core": "^25.6.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "node-fetch": "^3.3.2"
+  }
+}
