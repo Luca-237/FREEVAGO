@@ -2,21 +2,17 @@ import express from 'express';
 import cors from 'cors';
 import * as readline from 'readline';
 import fs from 'fs';
-import puppeteer from 'puppeteer-extra';
-import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import cliProgress from 'cli-progress';
 import { fileURLToPath } from 'url';
 
-// Importar los Scrapers
-import { performScrape as scrapeVuelos } from '../ScrapperVuelo/index.js';
-import { performScrape as scrapeHoteles } from '../ScrapperHotel/booking.js';
-import { performScrape as scrapeActividadesTC, performCivitatisScrape, fetchSugerenciasDestino } from '../ScrapperActividades/index.js';
+// Importar los scrapers (viven en ms2-scraping, cada uno maneja su propio
+// navegador — no hace falta compartir uno acá como antes).
+import { performScrape as scrapeVuelos } from '../ms2-scraping/src/scrapers/vuelos.scraper.js';
+import { performScrape as scrapeHoteles } from '../ms2-scraping/src/scrapers/hoteles.scraper.js';
+import { performScrape as scrapeActividades, performSugerencias } from '../ms2-scraping/src/scrapers/actividades.scraper.js';
 
 // Importar Kiwi API
 import { getIataAndEnglishName } from './kiwiApi.js';
-
-puppeteer.use(StealthPlugin());
-const BRAVE_PATH = '/opt/brave.com/brave-origin/brave';
 
 function parsePrice(priceStr) {
     if (!priceStr || typeof priceStr !== 'string') return 0;
@@ -30,28 +26,12 @@ function parsePrice(priceStr) {
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 const askQuestion = (q) => new Promise(resolve => rl.question(q, resolve));
 
-// Variables globales para el servidor API
-let globalBrowser = null;
-let globalPage = null;
-
-async function initBrowser() {
-    if (!globalBrowser) {
-        globalBrowser = await puppeteer.launch({
-            headless: 'new',
-            executablePath: BRAVE_PATH,
-            args: ['--no-sandbox', '--disable-setuid-sandbox']
-        });
-        globalPage = await globalBrowser.newPage();
-        await globalPage.goto('https://www.turismocity.com.ar/', { waitUntil: 'domcontentloaded' });
-    }
-}
-
 // -------------------------------------------------------------
 // CORE ORCHESTRATION FUNCTION (Used by API and CLI)
 // -------------------------------------------------------------
-async function runOrchestration(params, page) {
+async function runOrchestration(params) {
     const { originName, destinationName, destinationSlug, departDate, returnDateStr, passengers, globalBudget } = params;
-    
+
     // 1. Kiwi API
     const origenInfo = await getIataAndEnglishName(originName);
     const destinoInfo = await getIataAndEnglishName(destinationName);
@@ -62,18 +42,11 @@ async function runOrchestration(params, page) {
     // 3. Hoteles
     const hotelesResult = await scrapeHoteles(destinoInfo.englishName, departDate, returnDateStr || '', passengers, () => {});
 
-    // 4. Actividades
-    const actResultTC = await scrapeActividadesTC(page, destinationSlug, () => {});
-    const slugParts = destinationSlug.split('_');
-    const civiCity = slugParts[0] || destinationName;
-    const civiCountry = slugParts.length > 1 ? slugParts[slugParts.length - 1] : 'Argentina';
-    const actResultCivi = await performCivitatisScrape(page, civiCity, civiCountry, () => {});
-    
-    let allActivities = [];
-    if (!actResultTC.error && actResultTC.activities) allActivities.push(...actResultTC.activities);
-    if (actResultCivi.success && actResultCivi.data) allActivities.push(...actResultCivi.data);
+    // 4. Actividades (Turismocity + Civitatis, ya combinados por el scraper)
+    const actResult = await scrapeActividades(destinationSlug, destinationName, () => {});
+    const allActivities = (!actResult.error && actResult.activities) ? actResult.activities : [];
 
-    // 5. Filtro
+    // 5. Filtro por presupuesto
     let vuelosFiltrados = [];
     if (!vuelosResult.error && vuelosResult.flights) {
         vuelosFiltrados = vuelosResult.flights.filter(v => parsePrice(v.price) <= globalBudget);
@@ -139,16 +112,13 @@ function startApiServer() {
     app.use(cors());
     app.use(express.json());
 
-    // Inicializar navegador al arrancar el servidor
-    initBrowser().then(() => console.log('Motor de búsqueda iniciado y listo.')).catch(console.error);
-
     app.get('/api/sugerencias', async (req, res) => {
         const query = req.query.q;
         if (!query) return res.status(400).json({ error: "Parámetro 'q' requerido" });
-        
+
         try {
-            if (!globalPage) await initBrowser();
-            const sugerencias = await fetchSugerenciasDestino(globalPage, query);
+            const { sugerencias, error } = await performSugerencias(query, () => {});
+            if (error) return res.status(500).json({ error });
             res.json(sugerencias);
         } catch (error) {
             console.error(error);
@@ -158,13 +128,12 @@ function startApiServer() {
 
     app.post('/api/viaje', async (req, res) => {
         const { originName, destinationName, destinationSlug, departDate, returnDateStr, passengers, budget } = req.body;
-        
+
         if (!originName || !destinationName || !destinationSlug || !departDate || !budget) {
             return res.status(400).json({ error: "Faltan parámetros requeridos" });
         }
 
         try {
-            if (!globalPage) await initBrowser();
             const params = {
                 originName,
                 destinationName,
@@ -174,9 +143,9 @@ function startApiServer() {
                 passengers: parseInt(passengers) || 1,
                 globalBudget: parseInt(String(budget).replace(/[^\d]/g, '')) || Infinity
             };
-            
-            const result = await runOrchestration(params, globalPage);
-            
+
+            const result = await runOrchestration(params);
+
             fs.writeFileSync('resultados_finales.json', JSON.stringify(result, null, 4));
             res.json(result);
         } catch (error) {
@@ -200,16 +169,14 @@ function startApiServer() {
 async function startConsoleMode() {
     let progressBar;
     try {
-        console.log('\n[Iniciando motor de búsqueda para autocompletado, aguarde unos segundos...]');
-        await initBrowser();
-
         // -- ORIGEN --
         const originInput = await askQuestion('\nOrigen (Búsqueda inicial, ej. "Buenos Aires"): ');
-        const sugOrigen = await fetchSugerenciasDestino(globalPage, originInput);
-        if (!sugOrigen || sugOrigen.length === 0) {
+        console.log('\n[Buscando sugerencias de origen, aguarde unos segundos...]');
+        const { sugerencias: sugOrigen, error: errorOrigen } = await performSugerencias(originInput, () => {});
+        if (errorOrigen || !sugOrigen || sugOrigen.length === 0) {
             throw new Error(`No se encontraron orígenes coincidentes para "${originInput}"`);
         }
-        
+
         console.log(`\nSugerencias encontradas para origen "${originInput}":`);
         sugOrigen.forEach((sug, idx) => {
             console.log(` ${idx + 1}. ${sug.displayName}`);
@@ -220,14 +187,14 @@ async function startConsoleMode() {
         if (isNaN(selectedIdxOri) || selectedIdxOri < 0 || selectedIdxOri >= sugOrigen.length) selectedIdxOri = 0;
         const tcOriginName = sugOrigen[selectedIdxOri].cityName || sugOrigen[selectedIdxOri].displayName;
 
-
         // -- DESTINO --
         let destQuery = await askQuestion('\nDestino (Búsqueda inicial, ej. "Cordoba"): ');
-        const sugerencias = await fetchSugerenciasDestino(globalPage, destQuery);
-        if (!sugerencias || sugerencias.length === 0) {
+        console.log('\n[Buscando sugerencias de destino, aguarde unos segundos...]');
+        const { sugerencias, error: errorDestino } = await performSugerencias(destQuery, () => {});
+        if (errorDestino || !sugerencias || sugerencias.length === 0) {
             throw new Error(`No se encontraron destinos coincidentes para "${destQuery}"`);
         }
-        
+
         console.log(`\nSugerencias encontradas para destino "${destQuery}":`);
         sugerencias.forEach((sug, idx) => {
             console.log(` ${idx + 1}. ${sug.displayName}`);
@@ -236,8 +203,8 @@ async function startConsoleMode() {
         const selectedIdxStr = await askQuestion('Selecciona el número de tu destino: ');
         let selectedIdx = parseInt(selectedIdxStr) - 1;
         if (isNaN(selectedIdx) || selectedIdx < 0 || selectedIdx >= sugerencias.length) selectedIdx = 0;
-        const tcLocationName = sugerencias[selectedIdx].cityName || sugerencias[selectedIdx].displayName; 
-        const tcDestinationSlug = sugerencias[selectedIdx].slug; 
+        const tcLocationName = sugerencias[selectedIdx].cityName || sugerencias[selectedIdx].displayName;
+        const tcDestinationSlug = sugerencias[selectedIdx].slug;
 
         // -- RESTO DE DATOS --
         const departDate = await askQuestion('\nFecha de Ida (ej. 2026-10-10): ');
@@ -259,8 +226,8 @@ async function startConsoleMode() {
 
         progressBar = new cliProgress.SingleBar({
             format: 'Progreso |{bar}| {percentage}% || Procesando Scrapers...',
-            barCompleteChar: '\u2588',
-            barIncompleteChar: '\u2591',
+            barCompleteChar: '█',
+            barIncompleteChar: '░',
             hideCursor: true
         });
         progressBar.start(100, 10);
@@ -269,12 +236,12 @@ async function startConsoleMode() {
             if (progressBar.value < 90) progressBar.increment(5);
         }, 3000);
 
-        const result = await runOrchestration(params, globalPage);
-        
+        const result = await runOrchestration(params);
+
         clearInterval(progressInterval);
         progressBar.update(100);
         progressBar.stop();
-        
+
         fs.writeFileSync('resultados_finales.json', JSON.stringify(result, null, 4));
 
         console.log('\n\n========================================================');
@@ -284,13 +251,12 @@ async function startConsoleMode() {
         console.log(`- Hoteles viables encontrados: ${result.resultados.hoteles.dentroDelPresupuesto}`);
         console.log(`- Actividades viables encontradas: ${result.resultados.actividades.dentroDelPresupuesto}`);
         console.log(`\nTodos los detalles se han guardado en 'resultados_finales.json'`);
-        
+
     } catch (error) {
         if (progressBar) progressBar.stop();
         console.error(`\n[ERROR CRÍTICO] Hubo un fallo en la orquestación: ${error.message}`);
         console.error(error.stack);
     } finally {
-        if (globalBrowser) await globalBrowser.close();
         process.exit(0);
     }
 }
@@ -304,7 +270,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
     console.log('========================================================');
     console.log(' 1. Modo Consola (Interactivo)');
     console.log(' 2. Servidor API REST');
-    
+
     rl.question('\nIngresa 1 o 2: ', (answer) => {
         if (answer.trim() === '1') {
             startConsoleMode();
