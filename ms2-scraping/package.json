@@ -8,7 +8,8 @@
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
     "cli:vuelos": "node src/cli/vuelos.cli.js",
-    "cli:hoteles": "node src/cli/hoteles.cli.js"
+    "cli:hoteles": "node src/cli/hoteles.cli.js",
+    "cli:actividades": "node src/cli/actividades.cli.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
