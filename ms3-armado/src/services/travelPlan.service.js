@@ -10,7 +10,7 @@ export async function armarTravelPlan({ scrapingId, userId }) {
     if (!mongoose.isValidObjectId(scrapingId)) {
         throw appError('VALIDATION_ERROR', 'scrapingId inválido');
     }
-    if (!mongoose.isValidObjectId(userId)) {
+    if (!userId || typeof userId !== 'string') {
         throw appError('VALIDATION_ERROR', 'userId inválido');
     }
 
@@ -26,6 +26,12 @@ export async function armarTravelPlan({ scrapingId, userId }) {
         userSelection = await UserSelection.findById(scraping.userSelection).lean();
         if (!userSelection) {
             throw appError('USER_SELECTION_NOT_FOUND', 'No existe la selección de usuario referenciada por el registro de scraping');
+        }
+        // Ownership: el scraping tiene que pertenecerle al usuario que pide
+        // el plan (identificado por x-user-id), no a cualquiera que
+        // adivine/consiga un scrapingId ajeno.
+        if (userSelection.userId !== userId) {
+            throw appError('FORBIDDEN', 'El registro de scraping solicitado pertenece a otro usuario');
         }
     }
 

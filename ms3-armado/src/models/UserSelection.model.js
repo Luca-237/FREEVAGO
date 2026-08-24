@@ -7,7 +7,8 @@ const { Schema } = mongoose;
 // ms3-armado solo la lee para armar el prompt de Gemini.
 
 const userSelectionSchema = new Schema({
-    userId: { type: Schema.Types.ObjectId, required: true },
+    // ID de Clerk (string), no un ObjectId de Mongo.
+    userId: { type: String, required: true },
     origenCiudad: { type: String, required: true },
     fechaIda: { type: String, required: true },
     fechaVuelta: String,

@@ -7,7 +7,8 @@ const { Schema } = mongoose;
 // ScrapingResult. La colección la llena otra parte del sistema.
 
 const userSelectionSchema = new Schema({
-    userId: { type: Schema.Types.ObjectId, required: true },
+    // ID de Clerk (string), no un ObjectId de Mongo.
+    userId: { type: String, required: true },
     origenCiudad: { type: String, required: true },
     fechaIda: { type: String, required: true },
     fechaVuelta: String,
