@@ -1,14 +1,13 @@
 import puppeteer from 'puppeteer-extra';
 import StealthPlugin from 'puppeteer-extra-plugin-stealth';
+import { resolveBrowserPath } from '../utils/browserPath.util.js';
 
 puppeteer.use(StealthPlugin());
-
-const BRAVE_PATH = process.env.BRAVE_PATH || '/opt/brave.com/brave-origin/brave';
 
 async function launchPage() {
     const browser = await puppeteer.launch({
         headless: 'new',
-        executablePath: BRAVE_PATH,
+        executablePath: resolveBrowserPath(),
         defaultViewport: null,
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
