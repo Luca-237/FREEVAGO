@@ -1,5 +1,6 @@
 import express from 'express';
 import { requestId } from './middlewares/requestId.middleware.js';
+import { requestLogger } from './middlewares/requestLogger.middleware.js';
 import { errorHandler, notFoundHandler } from './middlewares/errorHandler.middleware.js';
 import healthRoutes from './routes/health.routes.js';
 import vuelosRoutes from './routes/vuelos.routes.js';
@@ -13,6 +14,7 @@ const app = express();
 
 app.use(express.json());
 app.use(requestId);
+app.use(requestLogger);
 
 // Sin prefijo /api: para que el Gateway y cualquier balanceador lo chequeen directo
 app.use(healthRoutes);

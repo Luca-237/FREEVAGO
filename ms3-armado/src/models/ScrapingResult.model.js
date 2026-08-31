@@ -42,8 +42,11 @@ const scrapingResultSchema = new Schema({
     vuelos: [vueloSchema],
     hoteles: [hotelSchema],
     actividades: [actividadSchema],
-    // Referencia a las preferencias/selecciones que cargó el usuario para esta búsqueda
-    userSelection: { type: Schema.Types.ObjectId, ref: 'UserSelection' }
+    // Referencia a la conversación de MS1 que generó esta búsqueda — antes
+    // apuntaba a un `UserSelection` que nadie llenaba, ver
+    // ConversacionViaje.model.js. Debe quedar igual que el campo homónimo en
+    // ms2-scraping/src/models/ScrapingResult.model.js.
+    conversacionViajeId: { type: Schema.Types.ObjectId, ref: 'ConversacionViaje' }
 }, { timestamps: true, collection: 'scrapingResults' });
 
 export default mongoose.models.ScrapingResult || mongoose.model('ScrapingResult', scrapingResultSchema);

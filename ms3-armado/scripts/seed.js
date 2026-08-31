@@ -1,28 +1,41 @@
-// Script de prueba: inserta un UserSelection + ScrapingResult de ejemplo
-// en la base configurada por MONGO_URI (debería ser la de test) para poder
-// pegarle al endpoint POST /api/travel-plans con IDs válidos.
+// Script de prueba: inserta una ConversacionViaje (simulando lo que guarda
+// MS1) + un ScrapingResult de ejemplo en la base configurada por MONGO_URI
+// (debería ser la de test) para poder pegarle al endpoint POST /api/travels
+// con IDs válidos, sin depender de que MS1/MS2 estén corriendo.
 //
 // Uso: node scripts/seed.js
 import 'dotenv/config';
 import mongoose from 'mongoose';
 import { connectDB } from '../src/config/db.js';
 import ScrapingResult from '../src/models/ScrapingResult.model.js';
-import UserSelection from '../src/models/UserSelection.model.js';
+import ConversacionViaje from '../src/models/ConversacionViaje.model.js';
 
 async function main() {
     await connectDB();
     console.log(`[seed] Conectado a: ${mongoose.connection.name}`);
 
-    const userId = new mongoose.Types.ObjectId();
+    // userId "de negocio" que va a viajar en el header x-user-id (Gateway →
+    // Clerk). No es lo mismo que ConversacionViaje.usuarioId de abajo: ese es
+    // el ObjectId interno de la colección `usuarios` de MS1 (todavía sin
+    // Clerk conectado). Un string con forma de id de Clerk, no un ObjectId,
+    // para no acostumbrarnos a probar con la forma equivocada.
+    const userId = 'user_test_1';
 
-    const userSelection = await UserSelection.create({
-        userId,
-        origenCiudad: 'Córdoba',
-        fechaIda: '2026-10-10',
-        fechaVuelta: '2026-10-15',
-        cantidadPersonas: 2,
-        presupuesto: 500000,
-        preferencias: { tipoViaje: 'relax', intereses: ['playa', 'gastronomia'] }
+    const conversacion = await ConversacionViaje.create({
+        usuarioId: new mongoose.Types.ObjectId(),
+        estado: 'completo',
+        viaje: {
+            fechaSalida: '2026-10-10',
+            fechaFin: '2026-10-15',
+            viajeros: { cantidadTotal: 2 },
+            presupuesto: { monto: 500000, moneda: 'ARS' },
+            lugarSalida: { ciudad: 'Córdoba', provincia: 'Córdoba', pais: 'Argentina' },
+            destino: {
+                lugaresPreferidos: [{ ciudad: 'Asunción', pais: 'Paraguay' }],
+                destinosAbiertos: false
+            },
+            preferencias: { tipoViaje: ['relax'], intereses: ['playa', 'gastronomia'] }
+        }
     });
 
     const scrapingResult = await ScrapingResult.create({
@@ -50,18 +63,19 @@ async function main() {
         actividades: [
             { destino: 'Asunción', nombre: 'City tour', precio: 'ARS 8000', categoria: 'turismo' }
         ],
-        userSelection: userSelection._id
+        conversacionViajeId: conversacion._id
     });
 
     console.log('\n[seed] Documentos creados:');
-    console.log('  userId:      ', userId.toString());
-    console.log('  userSelection:', userSelection._id.toString());
-    console.log('  scrapingResult:', scrapingResult._id.toString());
+    console.log('  userId (x-user-id, string):', userId);
+    console.log('  conversacionViaje:', conversacion._id.toString());
+    console.log('  scrapingResult:   ', scrapingResult._id.toString());
 
     console.log('\n[seed] Probá con:');
-    console.log(`curl -s -X POST http://localhost:${process.env.PORT || 3002}/api/travel-plans \\`);
+    console.log(`curl -s -X POST http://localhost:${process.env.PORT || 3004}/api/travels \\`);
     console.log(`  -H "Content-Type: application/json" \\`);
-    console.log(`  -d '{"scrapingId":"${scrapingResult._id}","userId":"${userId}"}'`);
+    console.log(`  -H "x-user-id: ${userId}" \\`);
+    console.log(`  -d '{"scrapingId":"${scrapingResult._id}"}'`);
 
     await mongoose.disconnect();
 }
