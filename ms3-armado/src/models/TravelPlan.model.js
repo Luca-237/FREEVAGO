@@ -18,7 +18,7 @@ const travelPlanSchema = new Schema({
     userId: { type: String, required: true },
     // De dónde se tomaron los datos para armar el plan
     scrapingResultId: { type: Schema.Types.ObjectId, ref: 'ScrapingResult', required: true },
-    userSelectionId: { type: Schema.Types.ObjectId, ref: 'UserSelection' },
+    conversacionViajeId: { type: Schema.Types.ObjectId, ref: 'ConversacionViaje' },
     destinos: { type: [String], required: true },
     propuestas: {
         type: [propuestaSchema],

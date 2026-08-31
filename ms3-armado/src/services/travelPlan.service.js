@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import ScrapingResult from '../models/ScrapingResult.model.js';
-import UserSelection from '../models/UserSelection.model.js';
+import ConversacionViaje from '../models/ConversacionViaje.model.js';
 import TravelPlan from '../models/TravelPlan.model.js';
 import { buildPrompt } from '../utils/promptBuilder.js';
 import { generarPropuestas } from './gemini.service.js';
@@ -20,25 +20,31 @@ export async function armarTravelPlan({ scrapingId, userId }) {
         throw appError('SCRAPING_RESULT_NOT_FOUND', 'No existe el registro de scraping solicitado');
     }
 
-    // 2. Si el registro referencia una selección de usuario (origen, fechas, preferencias), traerla
-    let userSelection = null;
-    if (scraping.userSelection) {
-        userSelection = await UserSelection.findById(scraping.userSelection).lean();
-        if (!userSelection) {
-            throw appError('USER_SELECTION_NOT_FOUND', 'No existe la selección de usuario referenciada por el registro de scraping');
-        }
-        // Ownership: el scraping tiene que pertenecerle al usuario que pide
-        // el plan (identificado por x-user-id), no a cualquiera que
-        // adivine/consiga un scrapingId ajeno.
-        if (userSelection.userId !== userId) {
-            throw appError('FORBIDDEN', 'El registro de scraping solicitado pertenece a otro usuario');
+    // 2. Si el registro referencia la conversación de MS1 (origen, fechas,
+    // preferencias), traerla para pasársela a Gemini como contexto.
+    //
+    // No hay chequeo de "el scraping le pertenece a este usuario" acá: eso
+    // requeriría comparar `userId` (string de Clerk, lo inyecta el Gateway
+    // en x-user-id) contra `conversacion.usuarioId` (ObjectId interno de la
+    // colección `usuarios` de MS1) — son dos espacios de id distintos
+    // mientras MS1 no tenga Clerk conectado, así que hoy no hay forma
+    // correcta de validar esa igualdad desde acá. La autenticación es
+    // responsabilidad del Gateway (ya valida el JWT antes de llegar acá);
+    // ms3-armado no reimplementa una identidad propia para esto. Cuando
+    // MS1 emita el mismo userId de Clerk en `conversacionesViaje`, este es
+    // el lugar para volver a agregar el chequeo de ownership.
+    let conversacion = null;
+    if (scraping.conversacionViajeId) {
+        conversacion = await ConversacionViaje.findById(scraping.conversacionViajeId).lean();
+        if (!conversacion) {
+            throw appError('CONVERSACION_NOT_FOUND', 'No existe la conversación referenciada por el registro de scraping');
         }
     }
 
     // 3. Armar el prompt y pedirle a Gemini las 3 propuestas
     const prompt = buildPrompt({
         destinos: scraping.destinos,
-        userSelection,
+        viaje: conversacion?.viaje,
         scraping: {
             vuelos: scraping.vuelos,
             hoteles: scraping.hoteles,
@@ -48,12 +54,13 @@ export async function armarTravelPlan({ scrapingId, userId }) {
 
     const propuestas = await generarPropuestas(prompt);
 
-    // 4. Guardar el TravelPlan, referenciado al usuario y al origen de los datos
+    // 4. Guardar el TravelPlan, referenciado al usuario (del header, vía
+    // Gateway) y al origen de los datos
     try {
         const travelPlan = await TravelPlan.create({
             userId,
             scrapingResultId: scraping._id,
-            userSelectionId: userSelection?._id,
+            conversacionViajeId: conversacion?._id,
             destinos: scraping.destinos,
             propuestas,
             geminiModel: process.env.GEMINI_MODEL || 'gemini-3.5-flash'

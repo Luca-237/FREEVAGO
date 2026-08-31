@@ -3,14 +3,18 @@ import { appError } from '../utils/appError.js';
 
 export async function crearScrapingResult(req, res, next) {
     try {
-        const { destinos, origen, fechaIda, fechaVuelta, pasajeros, userSelectionId } = req.body;
+        // "destinos" es opcional: si no se manda, se deriva de
+        // viaje.destino.lugaresPreferidos de la conversación. Todo lo demás
+        // (origen, fechas, pasajeros) sale directo de esa misma conversación,
+        // ya no hace falta que el caller los mande sueltos.
+        const { conversacionId, destinos, pasajeros } = req.body;
 
-        if (!destinos || !origen || !fechaIda || !userSelectionId) {
-            throw appError('VALIDATION_ERROR', 'Faltan parámetros: destinos, origen, fechaIda, userSelectionId');
+        if (!conversacionId) {
+            throw appError('VALIDATION_ERROR', 'Falta parámetro: conversacionId');
         }
 
         const { scrapingResult, warnings } = await generarYGuardarScraping({
-            destinos, origen, fechaIda, fechaVuelta, pasajeros, userSelectionId
+            conversacionId, destinos, pasajeros
         });
 
         // 200 (no 201): el caller necesita el id del ScrapingResult recién

@@ -4,7 +4,7 @@
 //  - 1 destino  -> 3 variantes del mismo destino
 //  - 2 destinos -> 3 propuestas repartidas de forma versátil entre ambos
 //  - 3 destinos -> 1 propuesta por destino
-export function buildPrompt({ destinos, userSelection, scraping }) {
+export function buildPrompt({ destinos, viaje, scraping }) {
     return `
 Sos un asistente experto en armado de viajes para la app FREEVAGO. Con los datos scrapeados y las preferencias del usuario de abajo, armá EXACTAMENTE 3 propuestas de viaje completas (un vuelo + un hospedaje + una lista de actividades cada una).
 
@@ -16,8 +16,8 @@ Reglas generales:
 - Priorizá, entre las opciones disponibles, las que mejor se ajusten a las preferencias del usuario (presupuesto, cantidad de personas, tipo de viaje, fechas).
 - Devolvé SOLO el JSON pedido, sin texto adicional ni markdown.
 
-Preferencias del usuario:
-${JSON.stringify(userSelection ?? {}, null, 2)}
+Perfil de viaje del usuario (encuesta conversacional armada por MS1):
+${JSON.stringify(viaje ?? {}, null, 2)}
 
 Datos scrapeados (vuelos, hoteles, actividades por destino):
 ${JSON.stringify(scraping, null, 2)}
