@@ -13,10 +13,12 @@ const propuestaSchema = new Schema({
 }, { _id: false });
 
 const travelPlanSchema = new Schema({
-    userId: { type: Schema.Types.ObjectId, required: true },
+    // ID de Clerk (string, ej. "user_2NNi..."), no un ObjectId de Mongo —
+    // lo inyecta el Gateway en el header x-user-id.
+    userId: { type: String, required: true },
     // De dónde se tomaron los datos para armar el plan
     scrapingResultId: { type: Schema.Types.ObjectId, ref: 'ScrapingResult', required: true },
-    userSelectionId: { type: Schema.Types.ObjectId, ref: 'UserSelection' },
+    conversacionViajeId: { type: Schema.Types.ObjectId, ref: 'ConversacionViaje' },
     destinos: { type: [String], required: true },
     propuestas: {
         type: [propuestaSchema],

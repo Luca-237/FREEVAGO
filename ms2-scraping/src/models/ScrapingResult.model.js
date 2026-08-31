@@ -43,8 +43,10 @@ const scrapingResultSchema = new Schema({
     hoteles: [hotelSchema],
     // Todavía no hay scraper de actividades: queda vacío hasta que se agregue
     actividades: [actividadSchema],
-    // Referencia a las preferencias/selecciones que cargó el usuario para esta búsqueda
-    userSelection: { type: Schema.Types.ObjectId, ref: 'UserSelection', required: true }
+    // Referencia a la conversación de MS1 (collection `conversacionesViaje`)
+    // que generó esta búsqueda — antes apuntaba a un `UserSelection` que
+    // nadie llenaba, ver ConversacionViaje.model.js.
+    conversacionViajeId: { type: Schema.Types.ObjectId, ref: 'ConversacionViaje', required: true }
 }, { timestamps: true, collection: 'scrapingResults' });
 
 export default mongoose.models.ScrapingResult || mongoose.model('ScrapingResult', scrapingResultSchema);

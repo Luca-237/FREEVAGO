@@ -1,33 +1,8 @@
-import { obtenerCoordenadas } from './geocoding.service.js';
-import { obtenerAeropuertosPorPais } from './airports.service.js';
-import { encontrarMasCercano } from '../utils/haversine.util.js';
 import { performScrape as performScrapeVuelos } from '../scrapers/vuelos.scraper.js';
 import { performScrape as performScrapeHoteles } from '../scrapers/hoteles.scraper.js';
 import { performScrape as performScrapeActividades } from '../scrapers/actividades.scraper.js';
+import { resolverIata } from './iata.service.js';
 import { appError } from '../utils/appError.js';
-
-// Resuelve el código IATA del aeropuerto más cercano a una ciudad. Misma
-// lógica que middlewares/codigoAeropuerto.middleware.js, pero como función
-// directa: acá la necesitamos llamar dos veces (origen y destino), no una
-// sola vez atada a req.body.origin.
-async function resolverIata(nombreCiudad) {
-    const datosGeo = await obtenerCoordenadas(nombreCiudad);
-    if (!datosGeo) {
-        throw appError('AIRPORT_RESOLUTION_FAILED', `No se pudo geolocalizar "${nombreCiudad}"`);
-    }
-
-    const aeropuertos = await obtenerAeropuertosPorPais(datosGeo.country);
-    if (!aeropuertos || aeropuertos.length === 0) {
-        throw appError('AIRPORT_RESOLUTION_FAILED', `No se encontraron aeropuertos para el país de "${nombreCiudad}"`);
-    }
-
-    const masCercano = encontrarMasCercano(datosGeo.latitude, datosGeo.longitude, aeropuertos);
-    if (!masCercano) {
-        throw appError('AIRPORT_RESOLUTION_FAILED', `No se pudo determinar el aeropuerto más cercano a "${nombreCiudad}"`);
-    }
-
-    return masCercano.iata;
-}
 
 // Convierte un precio scrapeado (string, sin normalizar todavía en el resto
 // del sistema) a número para poder filtrar por presupuesto. "Gratis" -> 0.
