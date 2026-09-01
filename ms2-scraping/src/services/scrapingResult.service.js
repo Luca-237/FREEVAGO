@@ -71,7 +71,18 @@ export async function generarYGuardarScraping({ conversacionId, destinos: destin
 
     const destinos = resolverDestinos(viaje, destinosOverride);
 
-    const origenIata = await resolverIata(origenCiudad);
+    // Ciudad -> país, para poder desambiguar en resolverIata (ver comentario
+    // en geocoding.service.js: nombres de ciudad como "Córdoba" matchean
+    // varios países). Si el destino vino de destinosOverride (body explícito,
+    // sin objeto {ciudad,pais}) no hay país conocido y resolverIata cae al
+    // comportamiento viejo (primer resultado de geocoding).
+    const paisPorDestino = new Map(
+        (viaje.destino?.lugaresPreferidos || [])
+            .filter(l => l.ciudad && l.pais)
+            .map(l => [l.ciudad, l.pais])
+    );
+
+    const origenIata = await resolverIata(origenCiudad, viaje.lugarSalida?.pais);
 
     const vuelos = [];
     const hoteles = [];
@@ -83,7 +94,7 @@ export async function generarYGuardarScraping({ conversacionId, destinos: destin
 
         let destinoIata;
         try {
-            destinoIata = await resolverIata(destino);
+            destinoIata = await resolverIata(destino, paisPorDestino.get(destino));
         } catch (err) {
             warnings.push({ destino, tipo: 'vuelos', error: `No se pudo resolver el aeropuerto de destino: ${err.message}` });
         }
