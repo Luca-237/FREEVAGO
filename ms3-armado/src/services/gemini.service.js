@@ -21,9 +21,15 @@ const responseSchema = {
                             fechaIda: { type: 'string' },
                             fechaVuelta: { type: 'string' },
                             precio: { type: 'number' },
-                            detalle: { type: 'string' }
+                            detalle: { type: 'string' },
+                            // true si este vuelo sale de scraping.vuelos (dato real de MS2);
+                            // false si no había ningún vuelo scrapeado para este destino y
+                            // Gemini tuvo que estimarlo. Reemplaza al viejo "(Estimado)" suelto
+                            // en el texto de aerolinea/detalle, que no era confiable para que
+                            // el front lo detecte — ver promptBuilder.js para la instrucción.
+                            esReal: { type: 'boolean' }
                         },
-                        required: ['precio']
+                        required: ['precio', 'esReal']
                     },
                     hospedaje: {
                         type: 'object',

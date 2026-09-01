@@ -12,6 +12,10 @@ ${buildReglaDistribucion(destinos)}
 
 Reglas generales:
 - Cada propuesta elige UN vuelo, UN hospedaje y una lista de actividades, tomados de los datos scrapeados de abajo. Si para algún destino faltan datos, completá con una estimación razonable y aclaralo en "resumen".
+- Vuelo SIEMPRE tiene que estar presente en cada propuesta, nunca lo dejes vacío:
+  - Si en "scraping.vuelos" hay al menos un vuelo para el destino de esa propuesta, usalo (o el que mejor se ajuste) y marcá "vuelo.esReal": true.
+  - Si NO hay ningún vuelo scrapeado para ese destino, estimá vos un precio y aerolínea razonables (según la ruta, la temporada y la cantidad de pasajeros) y marcá "vuelo.esReal": false. En ese caso, "vuelo.detalle" tiene que aclarar explícitamente que es un precio estimado y no un vuelo real encontrado (ej: "Precio estimado: no se encontraron vuelos reales para esta ruta al momento de la búsqueda").
+  - No dejes "vuelo.esReal" ambiguo ni lo infieras del texto: es el campo que el front usa para mostrar o no un aviso de "precio estimado" al usuario.
 - "precioEstimado" es la suma aproximada de vuelo + hospedaje + actividades, en la misma moneda ("moneda").
 - Priorizá, entre las opciones disponibles, las que mejor se ajusten a las preferencias del usuario (presupuesto, cantidad de personas, tipo de viaje, fechas).
 - Devolvé SOLO el JSON pedido, sin texto adicional ni markdown.
