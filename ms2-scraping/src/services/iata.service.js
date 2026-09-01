@@ -9,8 +9,8 @@ import { appError } from '../utils/appError.js';
 // desde scrapingResult.service.js, que scrapea vuelos con código IATA pero
 // hoteles/actividades con el nombre de ciudad tal cual — no son
 // intercambiables.
-export async function resolverIata(nombreCiudad) {
-    const datosGeo = await obtenerCoordenadas(nombreCiudad);
+export async function resolverIata(nombreCiudad, pais) {
+    const datosGeo = await obtenerCoordenadas(nombreCiudad, pais);
     if (!datosGeo) {
         throw appError('AIRPORT_RESOLUTION_FAILED', `No se pudo geolocalizar "${nombreCiudad}"`);
     }
